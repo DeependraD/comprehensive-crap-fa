@@ -1,0 +1,250 @@
+# Regional organizations and cooperation
+
+## South Asian Association for Regional Cooperation (SAARC)
+
+SAARC was established on 8th December 1985 by seven countries, namely Bangladesh, Bhutan, India, the Maldives, Nepal, Pakistan and Sri Lanka as its original members. Afterwards, Afganistan was included at the 13th summit held at Dhaka in 2006.
+
+### Principles
+
+1. Cooperation within the framework of the Association shall be based on respect for the principle of soverign equality, territorial integrity, political independence, non-interference in internal affairs of other states and mutual benefit.
+2. Such cooperation shall not be a substitute for bilateral and multilateral cooperation but shall complement them.
+3. Such cooperation shall not be inconsistent with bilateral and multilateral obligations.
+
+### Objectives
+
+1. To promote the welfare of the peoples of South Asia and to improve their quality of life;
+2. To accelerate economic growth, social progress and cultural development in the region and to provide all individuals the opportunity to live in dignity and to realize their full potentials;
+3. To promote and strengthen collective self-reliance among the countries of South Asia;
+4. To contribute to mutual trust, understanding and appreciation of one another's problems;
+5. To promote active collaboration and mutual assistance in the economic, social, cultural, technical and scientific fields;
+6. To strengthen cooperation with other developing countries;
+7. To strengthen cooperation among themselves in international forums on matters of common interests; and
+8. To cooperate with international and regional organizations with similar aims and purposes.
+
+### SAARC mechanism/ Institutional structure
+
+**The summit**
+
+The Summit consists of all the Heads of States/Governments from the SAARC member countries. It is the highest body of SAARC. The Summit is held every two years on rotational basis in alphabetical order. So far, there have been 18 (?) summit meetings of SAARC. The dates of Summits of SAARC already held are as follows:
+
+```{r}
+read_csv("./data/saarc_summits.csv") %>% 
+ knitr::kable(booktabs = TRUE, caption = "SAARC summits, their respective dates and venues") %>% 
+ kableExtra::kable_styling(latex_options = "striped")
+```
+
+**Council of Ministers**
+
+The Council of Ministers comprises the Foreign Ministers of the SAARC Member States. It has the following functions:
+
+1. Formulation of the policies of the association;
+2. Review of the progress of cooperation under the Assocation;
+3. Decision on new areas of cooperation;
+4. Establishment of additional mechanism under the Association, as deemed necessary; and
+5. Decision on other matters of general interest to the Association.
+
+The Counci of Ministers meet twice a year. Up to now, there have been 37 ? sessions of the Council of Ministers. The 37th Session was held on 17 March, 2016 in Pokhara, Nepal.
+
+**Standing Committee**
+
+The Standing Committee consists of the Foreign Secretaris of the SAARC member states. It has the following functions:
+
+1. Overall monitoring and coordination of programme of cooperation;
+2. Approval of projects and programmes, and the modalities of their functioning;
+3. Determination of inter-sectoral priorities;
+4. Mobilization of regional and external resources; and
+5. Identification of new areas of cooperation based on appropriate studies.
+
+In practice, this is a main body to review progress and give directives. The Charter provides that the Committe shall meet as often as deemed necessary. Generally, the Committee meets proceeding the sessions of the Council of Ministers and the Summit. To date, the Committee has held 42 ? regular sessions. The 42nd Session was held in Pokhara, Nepal on 16 March 2016. The Committee also holds its Special Session depending on a special requirement. It has held 6 ? Special Sessions, on stand-alone basis. The last (6th) one was held in the Bandos Island, Maldives on 18 February, 2014. The 5th Session was held in Dhaka on 12 April, 2006.
+
+Programming committee
+
+The Eighteenth SAARC Summit included the Programming Committee as a Charter body. The main function of the Programming Committee is to assist the Standing Committee in matters relating to: Selection of regional projects, including their location, cost-sharing modalities among the Member States, and mobilization of external resources; Inter-Sectoral priority of Work Program; and Review of the Calendar of Activities. It consists of the Joint Secretary-level officials of the Ministry of Foreign/External Affairs of the SAARC Member States. It meets prior to the Standing Committee sessions or at the end of each English calendar year to scrutinize the budget of the SAARC Secretariat, Regional Centers and Specialized Bodies.It also finalizes both the Calendar of Activities and the proposed program of activities and takes up any other matter as assigned to it by the Standing Committee. The 52nd Session of the Programming Committee was held in Pokhara on 14-15 March 2016. The 53rd meeting of the Programming Committee was held in (Kathmandu on 24-25 November, 2017 ?).
+
+**Technical committees**
+
+The Technical Committees comprise representatives of member states (professionals from sectoral field). They are responsible for formulating the related programs and preparing projects in their respective fields. They also monitor the implementation of such activities and report them to the Standing Committee. They have following terms of reference:
+a) Determination of the potential and the scope of regional cooperation in agreed areas; b) Formulation of programs and preparation of projects; 
+c) Determination of financial implications of sectoral programs; 
+d) Formulation of recommendations regarding apportionment of costs; 
+e) Implementation and coordination of sectoral programs; and 
+f) Monitoring of progress in implementation.
+
+At present, there are 6 Technical Committees on: 
+
+i) Agriculture and Rural Development (including livestock and fisheries), 
+ii) Health and Population Activities, 
+iii) Women, Youth and Children, 
+iv) Science and Technology, 
+v) Transport (including land, water, railway and civil aviation) and 
+vi) Environment and Forestry). 
+
+**Working Groups**
+
+The Working Groups also consist of the representatives of member states (professionals from sectoral field). They also formulate the related programs, prepare projects in their respective fields, monitor the implementation of such activities and report them to the Standing Committee. In recommending target-bound programs and activities, they also propose mechanisms and sources of finance to implement them. They also carry out the directives emanating from SAARC higher bodies.
+
+At present, there are 4 Working Groups. They are:
+
+1. Telecommunications, and Information and Communication Technology (ICT),
+2. Biotechnology,
+3. Tourism, and
+4. Energy
+
+**The Secretariat**
+
+The SAARC Secretariat was established in 1987 which came into operation from 1 January 1988. The role of the Secretariat is to coordinate and monitor the implementation of SAARC activities, service the meetings of the Association and serve as the channel of communication. The Secretariat is headed by a Secretary-General and assisted by eight Directors (one director from each member state) and the General Services staff. The Secretary-General is elected from one of the SAARC Members on the principle of rotation in alphabetical order, with three years of tenure. H.E. Amjad Hussain Sial from Pakistan assumed the office of the Secretary-General from 1 March 2017 for the three year term.
+
+**SAARC Regional Centres**
+
+With a view to help promote regional cooperation through mandated works, currently there are five regional centers as follows:
+
+1. SAARC Agricultural Center (SAC), Dhaka;
+2. SAARC Tuberculosis and HIV/AIDS Center (STAC), Kathmandu;
+3. SAARC Energy and Environment Center (SEC), Islamabad;
+4. SAARC Cultural Centre (SCC), Kandy, Sri Lanka;
+5. SAARC Disaster Management Center (SDMC), New Delhi
+
+Regional centers are managed by the members of the respective Governing Boards comprising representatives from each Member States, Directors of SAARC and the representative of the Ministry of Foreign/External Affairs of the Host Government. The Director of the Centre acts as Member Secretary to the Governing Board. The reports of the Centres are submitted to the Programming Committee for consideration.
+
+**SAARC Specialized Bodies**
+
+Four SAARC Specialized Bodies have been set up in order to enhance cooperation and collaboration among SAARC Member States. These Bodies report to the Programming Committee. They are:
+
+1. SAARC Development Fund (SDF), Thimpu;
+2. South Asian University (SAU), New Delhi;
+3. South Asian Regional Standards Organization (SARSO), Dhaka;
+4. SAARC Arbitration Council (SARCO), Islamabad.
+
+**SAARC Apex and Recognized Bodies**
+
+There are altogether 6 Apex bodies and 17 Recognized bodies which work in collaboration with SAARC, especially to promote people-to-people contacts in the region and to foster manual understanding and goodwill among the people of South Asia.
+
+A. SAARC Apex Bodies
+
+1. SAARC Chamber of Commerce and Industry (SCCI)
+2. SAARC LAW
+3. South Asia Initiative to End Violence Against Children (SAIEVAC)
+4. South Asia Foundation (SAF)
+5. South Asian Federation of Accountants (SAFA)
+6. Foundation of SAARC Writers and Literature (FOSWAL)
+
+B. SAARC Recognized Bodies
+
+1. Association of Management and Development Institution in South Asia (AMDISA)
+2. South Asian Association for Regional Cooperation of Architects (SAARCH)
+3. Federation of State Insurance Organizations of SAARC Countries (FSIO)
+4. SAARC Diploma Engineers (SDEF)
+5. Radiological Society of SAARC Countries (RSSC)
+6. SAARC Teachers Federation (STF)
+7. SAARC Surgical Care Society (SSCS)
+8. South Asian Free Media Association (SAFMA)
+9. SAARC Women's Association (SWA)
+10. Hindukush Himalayan Grassroots Women's Natural Resources Management (HIMAWANTI)
+11. Federation of Association of Pediatric Surgeons of SAARC Countries (FAPSS)
+12. South Asian Federation of Exchanges (SAFE)
+13. South Asian Federation of Oncologist (SFO)
+14. South Asia Association of National Scout Organization (SAANSO)
+15. South Asian Network of Economic Research Institute (SANEI)
+16. SAARC Academy of Ophthalmology
+17. South Asian Women Development Forum (SAWDF)
+18. Self Employed Women's Association (SEWA)
+
+**Chairmanship**
+
+The member state hosting the Summit assumes the chair of the Association until the next Summit. Each Summit is hosted by a Member based on alphabetical order.
+
+**Observer countries**
+
+Currently, there are 9 observers in SAARC. They are:
+
+1. Australia
+2. China
+3. The EU
+4. Iran
+5. Japan
+6. Republic of Korea
+7. Mauritius
+8. Myanmar
+9. The USA
+
+**Areas of Cooperation**
+
+The SAARC has identified 16 areas of cooperation which are as follows:
+
+1. Agriculture and rural development
+2. Biotechnology
+3. Culture
+4. Economic and trade matters
+5. Education
+6. Energy
+7. Environment
+8. Finance
+9. Funding mechanism
+10. Information
+11. Communication and media
+12. People to people contacts
+13. Poverty alleviation
+14. Science and technology
+15. Security aspects
+16. Social development and tourism
+
+**Economic cooperation**
+
+As envisaged in the SAARC Charter, SAARC has taken important steps to expand cooperation among member countries in the core economic area, especially in trade and economic activities. A committee on Economic Cooperation (CEC) comprising commerce/trade secretaries of member countries is tasked to formulate and oversee the implementation of specific measures, policies and programs to strengthen and enhance intra-regional trade and economic relations.
+
+A. SAPTA
+
+The Agreement on SAARC Preferential Trading Arrangement (SAPTA) was signed by the Foreign Ministers of SAARC in Dhaka on 11 April, 1993 during the 7th SAARC Summit. The agreement entered into force on 7th December 1995. The SAPTA envisaged step-by-step negotiation for improved and extended market access. It was designed to provide preferntial tariff concessions among member states and remove Non-Tariff barriers on major items of intra-SAARC trade thus expand intra-regional trade. However, the process of trade liberalization under SAPTA was slow. It failed to make significant contribution to the growth of intraregional trade even after the conclusion of four rounds of negotiations completed by 2002.
+
+B. SAFTA
+
+With the objective of moving towards a South Asian Economic Union (SAEU) in a planned and phase-wise manner, the Agreement on South Asian Free Trade Area (SAFTA) was signed during the Twelfth Summit in Islamabad in January 2004. SAFTA entered into force from January 2006. The agreement calls for higher level of trade and economic cooperation beyond preferential trading arrangement and promotion of fair competition by removing barriers to cross-border flow of goods and facilitating the cross-border movement of goods.
+
+As the highest decision making body for the implementation of SAFTA, it has the institutional provision of SAFTA Ministerial Council (SMC), comprising Trade/Commerce Ministers of the member countries. A Committee of Experts (COE) made up of the representatives of Member States provides support to the SMC. The COE discusses the matters, among others, relating to trade liberalization program, sensitive lists, rules of origin, technical assistance to LDCs.
+
+There is not much progress in trade under SAFTA. The total cumulative exports under SAFTA since July 2006 have merely crossed US \$ 3 billion (as of 2016 ?). Intra-regional trade among the SAARC member countries is below 5\% of the total international trade of the region. Member countries are still maintaining a large 'sensitive list' to put barriers to imports, particularly for those items in which the LDCs have interests and strength. Reduction in non-tariff and para-tariff barriers is equally important for the enhancement of intra-regional trade.
+
+C. SATIS
+
+With a realization of the role of trade in services in the growth of the region and in order to complement SAFTA, SAARC Agreement on Trade in Services (SATIS) was signed in Thimpu, Bhutan during 16th Summit (April 2010). Unlike in SAFTA, a positive-list approach is being followed in SATIS. The main objective of SATIS are to promote and enhance trade in services among the member states in a mutually beneficial and equitable manner. Areas such as Banking, Telecom and Tourism (including Airlines Services) are considered as the major areas of concern in the field of trade in services. SATIS entered into force with effect from 29 November, 2012.
+
+D. Trade Facilitation Measures
+
+A number of trade facilitation agreements and measures have been put in place under SAARC. Among them, _SAARC Mutual Administrative Assistance in Customs Matters_; _SAARC Multilateral Agreement on Avoidance of Double Taxation_; and _Agreement on Promotion and Protection of Investments_ (draft ?) are important ones. The first and second ones have been ratified by all Member Countries and come into effect while the draft of the third one is under consideration of member states. The agreement on the establishment of _SAARC Arbitration Council_ has been done for the purpose of settling trade related disputes and has become functional now with headquarters in Islamabad, Pakistan.
+
+### SAARC conventions and agreements
+
+A. **SAARC Conventions/Protocol (Ratified by all members)**
+
+1. SAARC Regional Convention on Suppression of Terrorism
+2. SAARC Convention on Narcotic Drugs and Psychotropic Substances
+3. SAARC Convention on Preventing and Combating Trafficking in Women and Children for Prostitution
+4. SAARC Convention on Regional Arrangement for the Promotion of Child Welfare in South Asia
+5. Additional Protocol to the SAARC Regional Convention on Suppression of Terrorism
+
+B. **SAARC Agreements/Charter (Ratified by all Members)**
+
+1. Agreement on SAARC Preferential Trading Arrangement (SAPTA)
+2. Agreement on South Asian Free Trade Area (SAFTA)
+3. SAARC Agreement on Mutual Administrative Assistance in Customs Matters
+4. Agreement for Establishment of SAARC Arbitration Council (SARCO)
+5. SAARC  Limited  Multilateral  Agreement  for  Avoidance  of  Double  Taxation  and Mutual Administrative Assistance in Tax Matters
+6. Charter of the SAARC Development Fund (SDF)
+7. SAARC Agreement on Trade in Services (SATIS)
+8. Agreement on the Establishment of South Asian Regional Standards Organisation (SARSO)
+9. Agreement on Establishing SAARC Food Bank
+10. SAARC Agreement on Implementation of Regional Standards
+11. SAARC  Agreement  on  Multilateral  Arrangement  for  Recognition  of  Conformity Assessment
+12. Framework Agreement for Energy Cooperation (Electricity) 
+
+### Nepal and SAARC
+
+Nepal is one of the founding members of SAARC. Out of 18 Summits of the Association, five summits (1st to 4th and 13th ?) were attended by Nepal at the level of Head of Sate and the rest was attended at the level of Head of Government. Nepal successfully hosteed the 3rd, 11th and 18th summits in Kathmandu in 1987, 2002, and 2014 respectively. During the 3rd SAARC Summit in Kathmandu, the SAARC Regional Convention on Suppression of Terrorism was signed which was ratified by all Members and entered into force on 22nd August 1988. Likewise, two important conventions, namely SAARC Convention on Preventing and Combating Trafficking in Women and Children for Prostitution and SAARC Convention on Regional Arrangement for Promotion of Child Welfare in South Asia were signed on 5 January 2002 during the 11th Summit in Kathmandu which entered into force on 15th November 2005.
+
+Nepal hosts the Secretariat of SAARC, which was established in Kathmandu on 16 January 1987. Nepal also hosts one SAARC Regional Centere in Kathmandu (SAARC Tuberculosis and HIV/AIDS Centre; STAC, Bhaktapur). STAC started its functioning as SAARC TB Centre in 1994. It was renamed as SAARC Tuberculosis and HIV/AIDS Centre in November 2007. The center has been supporting the National TB control programs of the SAARC member states.
+
+Mr. Yadab Kant Silwal served as the fourth Secretary-General of SAARC (first Secretary-General of SAARC from Nepal) from 1 January 1994 to 31 December 1995 and the former Foreign Secretary, Mr. Arjun Bahadur Thapa served as the 12th Secretary-General of SAARC (2nd Secretary-General appointed from Nepal) from March 2014-February 2017.
+
+### Recent activities of SAARC
+
+- Creation of the SAARC Emergency Response Fund to counter effects of COVID-19 in the South Asian region.

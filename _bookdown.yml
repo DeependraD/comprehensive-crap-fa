@@ -1,0 +1,22 @@
+book_filename: comprehensive_crap_fa
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
+# dput(list.files(".", pattern = ".*-(body)_.*"))
+rmd_files:
+  html: []
+  latex: ["index.Rmd",
+  "01-body_fa_introduction_terminologies_stance.Rmd",
+  "02-body_fa_foreign_policy_national_guidelines.Rmd",
+  "03.1-body_fa_state_head_ministry.Rmd",
+  "03.2-body_fa_international_organizations_treaties_conventions_committments.Rmd",
+  "31.1-body_fa_diplomatic_missions.Rmd",
+  "32.1-body_fa_emergent_issues_investment_globalization_terrorism.Rmd",
+  "32.2-body_fa_national_defense_border_security.Rmd",
+  "32.3-body_fa_foreign_aid_small_nations.Rmd",
+  "32.3-body_fa_some_essays.Rmd",
+  "34-body_fa_diplomatic_correspondence_note_letter.Rmd"
+  ]
+  epub: []
+

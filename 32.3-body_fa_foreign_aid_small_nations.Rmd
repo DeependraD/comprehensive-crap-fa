@@ -1,0 +1,372 @@
+## Least developed countries
+
+The least developed countries (LDCs) is a list of the countries that, according to the United Nations, exhibit the lowest indicators of socioeconomic development, with the lowest Human Development Index ratings of all countries in the world. The concept of LDCs originated in the late 1960s and the first group of LDCs was listed by the UN in its resolution 2768 (XXVI) of 18 November 1971.
+
+The LDCs are defined as low-income countries that are suffering from long-term impediments to growth. They have low levels of human resource development and are vulnerable to both socio-economic, and environmental shocks.
+
+### Criteria for classification
+
+Countries are categorized as least developed if they meet the following three criteria, 
+
+1. Income per capita (poverty indicator): Adjustable criterion based on GNI per capita averaged over three years. As of 2015, a country must have GNI per capita less than US \$1035 to be included on the list, and over \$1242 to graduate from it.
+2. Human resources weakness (assets; Human Asset Index) based on indicators of nutrition, health, education and adult literacy rate.
+3. Economic vulnerability based on instability of agricultural production, instability of exports of goods and services, economic importance of non-traditional activities, merchandise export, concentration, handicap of economic smallness, and the percentage of population displaced by natural disasters.
+
+LDC criteria are reviewed every three years by the Committee for Development Policy (CDP) of the UN Economic and Social Council (ECOSOC). Countries may "graduate" out of the LDC classification when indicators exceed these criteria if so happens in two consecutive reviews qualify for graduation from the LDC category. They also quality if the GNI per capita of the country is at least twice the graduation threshold (\$2484) in two consecutive reviews.
+
+Since the inception of LDCs categorization following countries have graduated:
+
+1. Botswana (1994)
+2. Cabo Verde (2007)
+3. Maldives (2011)
+4. Samoa (2014)
+5. Equatorial Guinea (2017)
+6. Vanuantu and Angola (Scheduled for 2020 and 2021, respectively)
+
+Following is the listing of the third world countries (UNCTAD, Jan 2021):
+
+```{r ldcs-unctad}
+read_csv("./data/development_least_developed_jan_2021.csv", skip = 1, col_names = FALSE) %>% 
+  magrittr::set_colnames("country_names") %>% 
+  separate_rows(country_names, sep = ",\\s?") %>%
+  mutate(group_id = as.numeric(cut(row_number(), breaks = 2))) %>% 
+  mutate(row_id = row_number()) %>% 
+  relocate(row_id, .before = 1) %>% 
+  group_split(group_id, .keep = FALSE) %>% 
+  bind_cols() %>% 
+  knitr::kable(booktabs = TRUE, caption = "List of LDCs (2020)", 
+               col.names = rep(c("SN", "Country"), times = 2)) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
+
+There are 46 LDCs, with a population of close to one billion, representing about 12% of the world's population, but account for less than 2% of the world GDP and 1% of global trade in goods.
+
+### Problems characterizing LDCs
+
+- Weak human and institutional capacities
+- Low per capita income 
+- Unequal distribution of income
+- Unemployment and systemic poverty
+- Poor educational status
+- Discrimination, injustice and social inequalities
+- Human rights violation
+- Low saving and investing incentives
+- Poor infrastructure development
+- Scarcity of domestic financial resources
+- Governance crisis (inefficient, corrupt, opaque)
+- Political instability
+- Internal and external conflicts
+- Agrarian economy with low productivity and low investment
+- Low volume of trade
+- Demographic explosion
+- Poor access to technology and connectivity
+- Poor social welfare and brain drain
+- Lack of security
+- Massive political and or bureaucratic intervention
+- Weak internal politics thereby giving way for external interference
+- Low industrialization and capital intensive technologies
+- Poor resource management and investment capacity
+- Weakness in program design and implementation
+- High debt burden and dependence on external financing
+
+The United Nations Office of the High Representative for Least Developed Countries, Landlocked Developing Countries and Small Island Developing States (UN-OHRLLS) was established by General Assembly Resolution 56/227 as a follow-up mechanism to LDC-III to ensure effective follow-up, implementation, monitoring and review of the implementation of the Brussels Program of Action for the LDCs for the Decade 2001-2010, adopted at the conference.
+
+Despite three successive programs of action and notwithstanding the positive developments recorded by LDCs in the recent past, most of these countries have not met the internationally agreed goals, including the MDGs, and still face massive development challenges.
+
+With a view to exactly tackle that emergency and to reinvigorate the pledge in support of LDCs development and transformation, the international community met in Istanbul, Turkey, for the Fourth United Nations Conference on the LDCs (LDC-IV). The event took place from 9 to 13 May, 2011. It provided a major opportunity to deepen the global partnership in support of LDCs and set the framework for development cooperation for the next decade. The UN-OHRLLS is the coordinator of the LDC-IV process.
+
+The intention behind the creation of the group explicitly identifying the least developed countries is to sensitize the development problems facing these countries among the greater world and thereby urging the international community including the UN to undertake additional, specific and effective measures to support nationally designed development efforts of the LDCs. The UN committee for development policy is responsible for setting and reviewing of the LDCs criteria.
+
+After being recognized as so, these countries may be eligible for a number of special international, regional and bilateral support measures. Basically, the following benefits, opportunities or treatments are available to the LDCs in the area of foreign aid, trade and capacity building.
+
+- Development financing/Foreign aid
+- Preferential market (Duty free/Quota free access)
+- Special treatment regarding WTO related obligations (Import/export access, technical assistance, trade related facilities)
+- Technical cooperation
+
+It is not an easy task to resolve all the problems of LDCs at once. However, strong political will is quite necessary to develop a country utilizing and mobilizing available resources (both human and material). Moreover, no single country can remain isolated in a globalization oriented world and connectivity leads to realization and reflection to the prevailing situations of the country striving for progress. 
+
+We often hear the analogy that when larger developed nations sneeze, the less developed catch the cold. Building and maintaining the resilience of LDCs to external shocks continues to be a high priority rapidly changing geopolitical, economic and natural environment - with the gamut of challenges from high debt levels, changing migration patterns and projected slowdown in the global economy -- LDCs need support to be able to assess and mitigate the risks and alter their strategies accordingly.
+
+In this day and age of unprecedented global prosperity, rapid advances in science, technoogy and globalization, the citizens of LDCs should not remain entrapped in a vicious cycle of poverty, deprivation and inequity. LDCs represent an enormous human and natural resource potential for the world economic growth, welfare and prosperity. There must be an active effort on part of the developed countries to help identify the strengths, weaknesses, opportunities and threats facing the LDC. Afterall, with the globe as a single community, everyone should play a part in helping their weaker neighbor.
+
+### Priorities for LDCs by the international community
+
+1. A significant reduction in extreme poverty;
+2. Developing human and institutional resources to support sustained growth and sustainable development;
+3. Removing the supply side constraints and enhancing productive capacity and promoting the expansion of domestic markets to accelerate growth, income and employment generation;
+4. Accelerating LDCs' growth with the aim of enhancing their share in world trade and global financial and investment flows;
+5. Environmental protection, accepting that LDCs and industrialized countries have common but different responsibility;
+6. Attaining food security and reducing malnutrition
+7. Specific solutions to overcome problems of LDCs
+
+Graduation from least developed country (LDC) status becomes effective three years after the United Nations General Assembly takes note of the recommendation made by the Committee for Development Policy under the United Nations Economic and Social Council to graduate a country. This means Nepal's graduation will be effective in 2024, if the committee recommends graduation at its next triennial review in 2021.
+
+As of 2020, the gross national per capita income (GNI) of a country needs to be at least \$1,222 for it to be accorded developing country status. At present Nepal's per capita income is $1090, according to the World Bank.
+
+In the last two triennial reviews conducted in 2015 and 2018, Nepal had met two of the three criteria related to human asset index and economic vulnerability index. It couldn't, however, meet the per capita income criterion.
+
+Nepal must prepare a transition strategy in cooperation with trade and development partners to avoid adverse impacts from the country's graduation from least developed country status as it risks losing preference treatment after graduation, a government report says.
+
+While preparing the transition strategy, Nepal also needs to conduct a fresh review of the scheduled graduation plan considering the impact of the impact of the Covid-19 pandemic (Nepal Human Development Report 2020: Beyond LDC Graduation: Productive Transformation and Prosperity).
+
+There are differences in opinion whether rush towards graduation is a right option currently or not. Graduation makes countries more creditworthy by international credit rating agencies, thus improving access to commercial finance besides emitting a positive message to the global community about Nepal's development prospects. It can help potential branding as competitive destination for foreign direct investment inflows and other private investment. Despite some obvious benefits, there are also costs to Nepal suggesting that a delay in graduation might be more worthwhile in long term, 
+
+1. Resilient production sector such as manufacturing and service industry having pharmaceutical, garments and information technology products (similar to that of Bangladesh) are lacking.
+2. Foreign direct investment and the country's per capita GNI are low.
+3. International aid agencies, those that provide development support in Nepal, like UNDP and UNICEF have been allocating 60% of their core resource to the LDCs. Likewise, World Meterological Organization, International Telecommunications Union and Universal Postal Union also conduct programs specific to LDCs in Nepal. After graduation, access to such support programs will be halted.
+4. Nepal will have to face loss of preferential market access and increased competition in international markets which would disproportionately impact export-oriented small and medium enterprises and employment generated by them.
+5. The legal obligation of fully implementing the Trade Related Intellectual Property Rights (TRIPs) Agreement may negatively affect access to medicine, and in turn. health care.
+
+
+## Landlocked developing countries
+
+A land locked country is one that needs to traverse, at least, one another country to grain access to the sea. A land locked country is defined as a state that has no sea-coast. In practical terms, land locked countries may be located in the interior part of the continent far away from seas or ocean. There are 44 land locked countries in the world.
+
+They do not have sea coast at their borders. They need to take the help of at least one another country to reach to the sea ports. All LLDCs share common problem of geographical remoteness and dependence on trade and transport systems in neighboring and coastal countries. The location of LLDCs in the interior part of the continents requires their export and import goods to travel hundreds, if not thousands of kilometers to and from the closest maritime ports.
+
+The landlocked problem affects all aspects of developmetn, but its consequences are most severe in the field of external trade. Most land locked countries are remote from world markets: import and export need to be carried out through another state, in some cases several states. This gives rise to additional costs which reduce the competitiveness of their products on overseas markets and have a negative effect on their balance of payments as a result of higher import bills and currency outflows.
+
+Lack of access to sea also causes legal, administrative and political problems. Land locked countries have to negotiate to meet their transit requirements, and the facilities provided may not in every case be satisfactory because the transit countries have their own development priorities and problems, which are often acute. They may, for example, impose cumbersome documentation procedures and formalities in order to safe guard their interest which could be jeopardized by the diversion of transit cargoes to their domestic markets.
+
+```{r lldcs}
+lldcs_split <- tribble(
+  ~"sn", ~"country_name", ~"region",
+  1, "Botswana", "Africa", 
+  2, "Burkina faso", "Africa", 
+  3, "Burundi", "Africa", 
+  4, "Central african republic", "Africa", 
+  5, "Chad", "Africa", 
+  6, "Ethiopia", "Africa", 
+  7, "Lesotho", "Africa", 
+  8, "Malawi", "Africa", 
+  9, "Mali", "Africa", 
+  10, "Niger", "Africa", 
+  11, "Rwanda", "Africa", 
+  12, "Swaziland", "Africa", 
+  13, "Uganda", "Africa", 
+  14, "Zambia", "Africa", 
+  15, "Zimbabwe", "Africa", 
+  16, "Afganistan", "Asia", 
+  17, "Bhutan", "Asia", 
+  18, "Kazakhstan", "Asia", 
+  19, "Kyrgyzstan", "Asia", 
+  20, "Lao peoples' democratic", "Asia", 
+  21, "Mongolia", "Asia", 
+  22, "Nepal", "Asia", 
+  23, "Tajikistan", "Asia", 
+  24, "Turkmenistan", "Asia", 
+  25, "Uzbekistan", "Asia", 
+  26, "Armenia", "Europe", 
+  27, "Azarbaijan", "Europe", 
+  28, "Republic of Moldova", "Europe", 
+  29, "The former Yugoslav Republic of Macedonia", "Europe", 
+  30, "Bolivia", "South America", 
+  31, "Paraguay", "South America"
+) %>% 
+  group_by(region) %>% 
+  group_split(.keep = TRUE)
+
+max_rows <- max(map_dbl(lldcs_split, nrow))
+
+lldcs_split[map_dbl(lldcs_split, nrow) != max_rows] <- lldcs_split[map_dbl(lldcs_split, nrow) != max_rows] %>% 
+  map(~add_row(.x, tibble(sn = rep(NA, max_rows-nrow(.x)))))
+
+lldcs_split %>% 
+  map(~.x %>% select(-3)) %>% # remove region
+  bind_cols() %>% 
+  knitr::kable(booktabs = TRUE, col.names = rep(c("SN", "Country"), times = 4), caption = "List of landlocked countries of the world") %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:8, width = rep(c("3em", "6em"), times = 4)) %>% 
+  kableExtra::add_header_above(header = c("Africa" = 2, "Asia" = 2, "Europe" = 2, "South America" = 2))
+```
+
+
+### Characteristics of the LLDCs
+
+1. Physical isolation, geographical dispersal, and distance from the main markets, many countries being small island or landlocked developing countries;
+2. Insignificant participation in the multilateral trading system and a minimal share of total world trade;
+3. Small, fragmented and highly imperfect markets;
+4. Very open economy in general;
+5. Minimal or no export diversification;
+6. Dependence on very few export markets;
+7. Inadequate infrastructure;
+8. High degree of vulnerability;
+9. Low competitiveness;
+10. Low levels of productivity and insufficient supply;
+11. Political instability;
+12. Weak institutional and productive capacities;
+13. High transport and transit costs;
+14. Extreme poverty;
+15. Weak human development and brain drain;
+16. Lack of adequate market access opportunities;
+17. Difficult to attract FDI;
+18. Political and bureaucratic corruption
+
+Despite significant technological improvements in transport, landlocked developing countries in Africa and Asia continue to face structural challenges to accessing world markets. As a result, landlocked countries often lag behind their maritime neighbors in overall development and external trade. While the poor economic stance of landlocked countries is often solely attributed to geographical distance from the coast, the situation is more arising from the dependence for passage on the host country in various other ways, some of which are:
+
+1. Dependence on neighbors 'infrastructure
+2. Dependence on sound cross-border political relations
+3. Dependence on neighbors' peace and stability
+4. Dependence on neighbors' administrative practices
+
+According to WB, 1999, LLDCs are paying around 50\% more in transport costs than coastal countries, and have up to 60\% lower volumes of trade. Inefficient customs and transit transport procedures are considered to be the main cause of delays and high transport costs and present a huge obstacle to trade for LLDCs.
+
+### Solutions to mitigating problems of LLDCs
+
+- Enhancement of physical infrastructure and transport sytem
+- Maintenance of infrastructure, including improvement of border crossing facilities
+- Strengthening of international customs transit systems
+- Improvement of transit facilities and support services
+- Promotion of collaboration between public and private sector
+- Minimize documentation and other formalities
+- Control excess slowing down or a prolonged stoppage
+- Allow rapid transit without bureaucratic delay
+- Eliminate numerous taxes, fees and informal payments
+- Human power development and strategies to control brain drain
+- Expansion of regional and international trade by increasing export
+- Attraction of FDI by creating favorable policy and environment
+- International community should provide assistance and special treatment for the development of infrastructure and trade facility and promotion
+- Ensure good governance and stop corruption by maintaining political stability
+- Full implementation of transit treaties and agreements
+- No opening of the cargoes having sealed containers
+- Easy and flexible border transit and tariff
+
+### Nepal's role in LDCs and LLDCs
+
+- Since the beginning, Nepal has been involved in the issues and agendas related to the LDC and LLDC
+- During the period 2002-03, Nepal actively took part in activities and events related to LDCs in Brussels in 2001 and the ministerial conference of the LDCs.
+- Nepal has been kind and thankful to the developmental partners.
+- Nepal has been coordinating and maintaining healthy relationship within the nations of LDCs and LLDCs.
+- The eleventh Ministerial Meeting of the LDCs held on Nov 15, 2001 in New york, established a five member coordination Bureau of the group of LDC to strength coordination and promote greater participation and follow up of the Brussels Programme of Action. Nepal was elected as the chairman of the group on 29 September 2009 for the three years taking over from Bangladesh.
+- Earlier, Nepal also served as one of the four vice-chairperson in the LDCs coordination Bureau in New york from January 2002 to September 2007.
+- Nepal has contributed for facilitating coordination among LDCs by enhancing effective participation of the Group in various conferences and meetings.
+- Nepal has coordinated for developing unified approach of the group towards addressing emerging global developmental issues;
+- Nepal has consolidated positions and articulated the interests of LDCs in the negotiation of various conventions and resolutions
+- Nepal has also contributed providing sustained, sound and visible leadership of the group at the UN and other international forums and meetings.
+- Nepal has assumed the chairmanship of the LDCs and LLDCs group at a time when the world is facing multiple challenges of climate change, financial crisis, food crisis, energy shortages and so on.
+- Nepal has been advocating for the right of easy and free trade route for the LLDCs for easy movement of goods.
+- Nepal has been raising its voice for the LLDCs and its transit routes being the one of the LLDC countries.
+- Nepal has been shouting for the flexible transportation to reach up to the sea in the international forum and it has signed several bilateral and multilateral agreements for the right of the LLDCs.
+
+### Rights of land locked states
+
+The UN Convention on the Law of Sea, 1982 provided rights for land locked states on the sea. More importantly, the convention provided them with the right of access to and from seas and freedom of transit. However, the law makes such rights subject to the agreements to be made by land-locked and transit states. This, in turn, depends on the prevailing relations between the concerned states. If they are not in a smooth relation, the transit states may not be willing to negotiate and thereby put impediments on the land-locked states' free transit. The political will and commitment of transit states highly conditioned the rights of land-locked states. 
+
+1. The convention defines following terms: Land-locked state, transit state and means of transport (railway rolling stock, sea, lake, river craft and road vehicle; where local conditions so require porters and pack animals).
+2. Landlocked states and transit states may, by agreement between them, include as means of transport pipelines and gas lines and means of transport other than those included in paragraph (above).
+
+- Article 125 - Right of access to and from the sea and freedom of transit
+- Article 126 - Exclusion of application of the most-favored-nation clause
+- Article 127 - Customs duties, taxes and other charges
+- Article 128 - Free zones and other customs facilities
+- Article 129 - Cooperation in the construction and improvement of means of transport
+- Article 130 - Measures to avoid or eliminate delays or other difficulties of a technical nature in traffic in transit
+- Article 131 - Equal treatment in maritime ports
+- Article 132 - Grant of greater transit facilities
+
+
+
+## News and opinion pieces
+
+Nepali state is nurtured by both hard power of institutions and soft power of culture, language and identity. They have stitched Nepalis the world over. National authority, defined by the Westphalian state system, has now been contested by a number of state and non-state actors, institutions, forces, processes and human rights values. Those rooted in other societies often favour international jurisdiction to step in if national politics goes awry. The tax base of Nepal is scant to shore up state-centric order and shared idea of justice. Its knowledge, power, resource and legitimacy rest on the support of global community. The incongruity of Nepali state and its population settlement and surge of many regional and global issues require multi-level cooperation.
+
+Technological innovation and road, rail and air connectivity of both neighbours have reduced the distance, cut the old geopolitical barriers and altered the earlier idea of border. This has exalted Nepal from colonially given buffer status into a more dynamic macro milieu reshaping its leaders' perception about opportunity from the startling outreach of neighbours' power as global game changers. Their neighbourhood priority hooked Nepal from the periphery to geopolitical focus.
+
+The Eminent Persons' Group has, therefore, identified many debatable issues to settle and reset better ties. Apart from civilisational links, Nepal-India ties are shaped by security cooperation, roads, railroads, sea transit, power plants, air fields, economic development and human enterprises. Now, the growing Sino-Indian cooperation on border security, trade, investment and international relations has opened new geopolitical option for Nepal to ease the handicap of landlockedness. India is improving its image in Nepal, executing development promises and cultivating shared bond.
+
+Likewise, Nepal's proximity to Tibet, an underbelly of China, where major powers are converged for its separatism makes Nepal no less strategically vital to its security. Nepal can be a conduit for spurring Sino-Indian collaboration if its leaders can build trust with each than they are with each other and resolve their security dilemma. Fierce contest for security suffocates cooperation. But the perception of power gap between India and China entailed Nepali leaders to gravitate toward the latter's incentives and initiatives on OBOR, Boao Forum for Asia, AIBB, SCO, foreign investment in strategic sectors, Trans-Himalayas Multi-Dimensional Connectivity Networks, adjust policy on regional and international institutions and promote trade and transit diversification. These are blinking in the global eye.
+
+Both neighbours have shared interest to neutralise the soft power of Atlantic nations. They are providing succour to Nepal through their own NGOs without engaging in grassroots activism. China has suggested India to engage in partnership with Nepal avowing the validity of trilateralism. New geopolitics is based on partnership and burden sharing, not hegemonic or dominating. But, Nepali leaders must be aware of the outcome of choice they make in the context of the exhaustion of its institutional strength, fractiousness of leaders and highly remittance, aid, trade and foreign investment-dependent economy.
+
+Diversification of dependence on external world turns Nepal's choice interdependent which means external resources from the global powers and institutions are needed to sustain internal life. Nepal is attractive spot for global community to host useful activities increasing its acceptability. Banding with the LDCs, mountainous, landlocked and small states has amplified its leverage beyond vicinity. But its leaders' view is that the geopolitical weight of neighbours is more important than the shifting global alliances, rise of neo-nationalism, crisis in multilateralism, climate change, etc.
+
+Rising nationalism marked Nepal's shift from buffer to sovereignty. It can free its leaders from the snooze and rethink the utility of employing old concepts - semi-colony, sphere of influence, special relationship, equidistance, balancing or non-alignment. In the context of asymmetry of power between Nepal and its neighbours, self-neutralisation limits its freedom which is vital to apply judgment on international affairs. Nepal can attain middle path between certain shared aims and some differences with the neighbours and global regimes if Nepali leaders do not often invite alien forces for regime change to catapult oneself to power and esteem micro-management of nation's affairs. They need reflection on the nation's history of sacrifices of its heroes and builders for self-rule and gain aplomb, skill, ability and prudence to clip geopolitical issues stirring its vital interests.
+
+Leaders need to rise up from their partisan frame which has converted Nepalis into a polarised mass to be easily maneuverer by external powers. How Nepali leaders view varied geographic spaces, population and their transactions is vital for policy while national angle can set a rational course. It needs to creatively use conference diplomacy, economic statecraft and adaptive foreign policy behaviour in a multi-speed world.
+
+Nepali leaders need both guts and wisdom to absolve this nation from the Hobbesian Trap and punch geopolitical determinism, a concept which erodes the national freedom of manoeuvre and defies national interest-oriented policy. The harmony of whole gamut of foreign policy issues with any power cuts the liberty to defy, differ and create choice of development partners and make it inapt for national self-determination which has been historically prized by Nepalis.
+
+National freedom ensures right course of action in regional and global politics. The ethical freedom rests on freedom to do good for the nation and uphold: responsibility, intrinsic power and political will to settle vital issues - Lipu Lekh, Susta, immigration, flood and cross-border crime control, removal of export barriers, management of trade deficits, proper utilisation of foreign aid on national priority areas, foreign investment in productive sectors, labour management, utilization of hydropower, balancing ties and fostering international cooperation for win-win game. Enlightened self-interest helps reduce many dependencies such as ideological dependence blunts national conscience, aid dependence weakens the integrity of policy, power dependence restricts legitimacy and blanket import of soft power reduces the source of national identity. New geopolitics can ignite a fresh hope for Nepal worthy to realise its power of place and potential.
+
+Source: Dev Raj Dahal, \url{http://therisingnepal.org.np/news/25071}
+
+### Security Dilemmas of Small States
+
+The state sovereignty of Nepal and Norway as small states largely rests on prudence, reason and skilful exercise of shifting room of manoeuver and apt realpolitik responses to old and emerging security dilemma created by an underlying, unstable multi-polar world. The gush of geopolitics marks the erosion of liberal international norms and the onset of new oligarchic competition for influence among great powers. It is creating a challenging condition for small states to adjust to a fleeting big picture of a new international system. It has also offered choices for their polities, non-states actors, markets and civil society.
+
+Security dilemma
+
+The ascent of China and global aspiration of India mark a tension with the USA if not its allies, on matters of trade and strategic issues of the Asia-Pacific. China and India are also increasingly present in the strategic Arctic Region. The US seeks to engage Nepal in the Indo-Pacific strategy. They demand to support Tibetan refugees' human rights, support the UN sanctions against North Korea to give up its nuclear ambition, and desist from active engagement in China's Belt and Road Initiative. This puts Nepal into a security dilemma. The aid incentives US is offering are helpful for cash-strapped Nepal's economic development, but it cannot prompt Nepal to abandon One China Policy. Nepali citizens feel at ease with China's connectivity projects and elevated ties with the US. Both the neighbours are calculating its implications to them.
+
+After the Second World War Norway chose to become a member of the NATO Alliance while retaining the pragmatic policy of balanced reassurance and deterrence towards its mighty eastern neighbour (USSR and now Russia). Nepal has since the Rana regime until quite recently, pursued a somewhat circumscribed alliance-free foreign policy, largely skewed toward India and the West, but greatly more balanced ties with India and China. Now, Norway and Nepal as small states face a challenging spectre of old, emerging geopolitical dilemma as the Western liberal order crumbles and their territories attain greater strategic value by competing major powers. They are now challenged to define and refocus on national interests, and less on ideology to escape difficult security dilemmas in an exceedingly complicated world with a retreating hegemonic superpower.
+
+Norway's High-North has emerged as a dynamic global hotspot for fast environmental change, increasing militarisation and presence of both Arctic rim-states and non-rim states, including a number of Asian states. The latter is arguably a result of geopolitical shifts, responding to environmental, technological and oceanic transportation changes of global scale. The Arctic Council has had an increasingly vital role in inter-state collaboration in the post-Cold War period. It addresses issues of environmental change, polar research and trade, but not hard-core security or military issues. Estimation of the new opportunities and risks as a result of trans-Eurasian integration, rapid environmental change and new rivalry between major powers, characterised by trade wars and escalating high-tech militarisation posing risks for interstate wars is an imperative.
+
+Norway's Solberg-led neo-con coalition government is currently in its second term. The government has steadily shifted its foreign and defence policies away from the Cold-War era's balanced reassurance and deterrence policies, in favour of a more one-sided deterrence orientation. Analysts now observe a heavier and more regular military footprint of NATO in the High-North. Norway-US bilateral partnership is another pillar, strikingly under-communicated in national defence plans and by parliamentarians. Both inter-state pillars contribute a remilitarisation of Northern-Norway, notably not with a substantial build of Norway's own national land and naval forces. The High-North's military importance is back at Cold War level, but not with that era's "simple order" of only two rivalling powers.
+
+The US military currently pays for upgrading of the sophisticated Globus-2 Radar at Vardø, a Norwegian island situated right on the enormous, increasingly ice-free Barents Sea. In terms of geographical distance from the capital, Vardø is an outpost located strategically close to the Norwegian-Russian border. Vardø's income-strapped local government has struggled to cope with a dramatic drop in the population and a surge in senior citizen. Closures of land-based marine processing industries and pessimistic youth migrating south are main causes.
+
+Neither government funds nor a rising nature tourism industry as a birdwatchers' paradise, create alternative employment of sufficient scale. No wonder Vardø's politicians remain supportive of foreign presence. The glowingly white mega-antenna, perched on the city mountain, can be mistaken to be a temple-like art installation. Officially, it monitors rubble in space, but this is a clumsy distraction. It takes down and transmits onward extremely detailed satellite imagery of much of the Northern hemisphere. Judging experts and open US military sources, the radar is integrated within the US's ballistic missile umbrella. Recently, Russia's fighter jets conducted a full-scale mock attack on the radar, also observed in real time on screens at Norwegian and NATO intelligence quarters.
+
+While the government spokespersons condemned the mock-attack, local reactions were more laidback, revealing Finnmark's special Second World War history. Hitler Germany applied a scorched earth strategy when retreating from East-Finnmark during momentous months in 1944. The Russians came to Finnmark as liberators. Their valiant military actions solidified friendly Norwegian-Russian relations in a border-region with a region with long-distance east-west trade, migration, cultural exchange and reindeer pastoralism. In terms of cross-border integration, the sub-region can be compared with Mustang's riveting geopolitical attention. In order to really grapple with what is what is most consequential in terms of a geopolitically framed border politics, be that in Vardø, Mustang or Rauswa, the influential "centre versus periphery" theory of Stein Rokkan, Norway's doyen of political science is inadequate.
+
+Such striking differences between national politicians and border polities in terms of rhetoric and risk perceptions are not uncommon to Nepal either. Nepal's lifted ties with the USA and its strategic allies are considered by its decision makers a strategy to reduce neighbourhood determinism and exercise autonomy in foreign policy. There is, however, perceptual gap on both sides. Nepali leaders do not perceive China as a threat to be feared, in the way the US seeks to convince Nepalis. Instead they deem China's cooperation essential in order to reduce its undue dependence on India, knowing that it is a member of US-led QUAD. Until 1980s, India colluded with the West and Russia against China. Nepal's improved relations with the US are designed to convince the latter to have its own foreign policy lens on Nepal, rather than see it by the Indian lens. Reducing dependence on India, however, does not undermine shared soft power, open border, Gorkha recruitment and complex ties between Nepal and India. Nepal's interest to revise the Treaty of Peace and Friendship, transit diversification and good links to the outside world are based on its efforts to open menu of choice.
+
+The growing Sino-India economic ties on many areas have made Nepal's strategic geography vital for the USA. Nepal may adopt cooperative policy in the Indo-Pacific region without riling the neighbours and accept the USA and China's cooperation in high politics of state security. But it will detest low politics of backing partisan or demographic interests that radicalizes the identity of otherness within the nation and flags the base of national security.
+
+Neither India, nor China, not even Russia has any interest to defend democracy in Nepal, the shared political ideal of many Atlantic nations. For reason of its own national interest, Nepal will not return Tibetan refugees to China violating their human rights, but considers One-China Policy like India. It has committed not to harbour anti-China activities on its soil either through the use of intrinsic or acquired power. Nepalis believe that Sino-US competition in Nepal has constrained India to operate strategically in the sphere of assertive bilateralism and moderated its appetite for regime-changing behaviour. Nepal appreciates the US and China's support to conquer its state's weakness to create national security, stability and authority. The EU, the US and China have shown interest in building the capacity of Nepali Army, supply equipment and expressed readiness to help the proposed Defense University. The US-Nepal cooperation might not be about satellites and high-tech land-based installations as in the High-North. Yet military cooperation is pursued and complemented by civilian cooperation of geopolitical importance.
+
+Despite the background condition of anarchy, international system mirrors global norms, values and laws and overlapping interests among nation-states. Small states, like Nepal and Norway, will not be free from the security dilemma as they find incongruity between domestic order created by the state authority and bigger systemic uncertainty in the world with countless inclinations of various actors entailing them to make security somewhat sacrosanct. Security dilemma imagines that the rise of new powers has generated perceived insecurity to relatively declining USA prompting it to adopt counter measures such as containment, adjustment and new alliance formation.
+
+National interest
+
+Historical memory of national insecurity is the factor behind the formulation of Nepal's new security policy, which aims to resolve security dilemma through rule-based system. But National Security Council needs a team of interdisciplinary experts so that the state-bearing institutions can identify the sources of threats, provide early warning and engage in mitigating them either through justice, law and order or coercion and widen the state's outreach in society. Communication to the public long-term national interests such as national security, stability, wellbeing, national identity and sovereign status is vital. This, like Norway, helps build trust among the state, citizens and experts and bridges the gap between state sovereignty and human security. For Nepal and Norway, the optimum strategy to resolve security dilemma depends on resorting to diversification, international law, organisation, deterrence, self-help or building a modicum of trust among the rival powers so that their peace and security are not endangered.
+
+Source: Dev Raj Dahal, \url{http://therisingnepal.org.np/news/29922}
+
+## Foreign aid
+
+### Politics of Foreign Aid
+
+Dev Raj Dahal
+
+Politics of foreign aid is a powerful economic statecraft of global politics. Nepali citizens are socialised to believe that survival imperative and legitimacy of leaders rest on how much foreign aid they bring to the nation. Foreign aid covers various goals and activities and responds to public expectations. But it also reflects political influence in the public life from family planning, education, health, culture to governance. Foreign aid will continue to lead its development discourse if power elites succumb to aid-addictive mentality and behavior. Economic crisis, fall of certain donors, rise of nationalism in aid giving countries and newer alliance patterns have led to the sinking of grant and ascent of loan. Nepal needs to reorder its priority in the use of state funds beyond free market solution of the individual and societal problems. 
+
+Foreign aid marks a transition from the patron-client web in the colonial days, economic "take-off" in the cold war, transformation of economy, polity and society in the post-cold war years to crisis management and sustainable development now. Donors - bilateral, multilateral and INGOs and their allies NGOs and civil society – define priorities in Nepal and shift aid conditions, setting its strategic, political and development tone. Those complaints to donors' ideological, strategic, commercial and humanitarian interests collect copious aid under paternal protection. Those in the shadow of great powers collect trickle-down. Ideally, aid emerges from the ethical obligation of the rich countries to help the poor to acquire self-dignity. Strings-free aid wires its sovereignty, not flag by external powers' policy goal. Yet, any talk on aid in Nepal evokes the images of "weariness" owing to a constant lack of desired progress, "pervasiveness" in all sectors of society and "permanence" of aid thus failing to lift domestic capital, technology and skills. It has frequently introduced new paradigm of development.
+
+The cold war ethics of liberal aid sought to foil socialism by exalting state institutions. Socialist nations aimed to free Nepal from reliance on liberal order while others favoured self-help. Secluded long by high mountain chains in the north and dense malarial forests in the south, Nepal was suddenly vaulted into a global strategic game. It drew a stream of aid from irreconcilable worlds, executed class-mediating liberal ideals and adopted economic nationalism, import-substitution, export promotion, neutrality, regionalism and active role in conference diplomacy. The fall of socialism erased the cold war virtues of aiding the state and marked the age of human rights, democracy, market economy, civil society and gender equality. Foreign aid has stabilised the elites' survival as labour classes are stratified into multi-colour stripes. Aid's public awareness strategy, however, questioned the performance of polity and detonated political movements of critical mass aiming to reorder elites. The discontent with official aid due to its bureaucratic-political control over the citizens' lives widened the space for NGOs, civil society and citizens' groups. The liberal donors gave off bulk of their funds through these sub-elites' networks having outreach to the grassroots.
+
+Their rivals fostered state sovereignty though multi-track actions. During the post-cold war phase, market sagacity of official aid did not function as Nepal's economic forces created partisan market of monopoly, cartel and syndicate strutting Nepal into a capricious future. Donors' support to partisan non-state actors also flagged the performance of local, provincial and federal state prompting the global community to review the utility of aid. The alignment of aid to rights-based discourse, national ownership, citizens' participation, transparency, accountability, equity and Nepal Development Forum are the outcome of the realisation of inseparability of human values in aid policy. But it scarcely satisfied the restless aspiration of Nepalis for public goods. The aid flow mustered a general consensus of donors and Nepali polity on social development, ecological protection, human rights, democracy, governance and peace. Proper use of aid can build internal capacity to spur surplus to cover balance of payment deficits and reduce foreign exchange and domestic savings gaps. New geopolitics of aid offers Nepal a choice in a poly-centric global order driven by science, transport and connectivity, not geography or ideology determinism.
+
+The realism of foreign aid lies in strategic, political, economic and commercial interests of donors. Sometimes they are mixed with humanitarian ideals of easing the suffering of citizens and saving the lives of innocent from premature death. It has also contributed to mutually beneficial progress, such as adaptation to climate change, protection of global common, management of existential risks, etc. Nepal's aid practices have experienced many development notions presuming economic growth. Yet, the financial and technical aid which is meant to be its engine suffered from the assault of left and right critics refusing to admit its positive outcome. Left critics view that foreign aid smacks of charity and enhances the power of global capitalism, and its strategic ally comprador class, the enemy of nation's industrialisation. Right critics claim that foreign aid helps to expand bureaucracy, enlarges the state's authority and, therefore, creates obstacles to market economy and individual freedoms. 
+
+Bureaucratisation of aid has cut its ability to renew creative social institutions. In Nepal, the "pervasiveness" of aid reveals the loss of confidence of leaders and citizens in native knowledge, skill and resource owing to their uncritical habits to take external policy advice, power and legitimacy regardless of their utility. Nepal faces a gap between aid promises of donors and their supply. Similarly, skewed aid does not tally Nepal's aid requirements to resolve state weakness and market failures in meeting basic needs and renewing hope. Aid needs to assess the source of economic paralysis of the nation whether it is rooted in the security and political disharmony, corruption, abuse of resources, mismanagement, or bundle of political, legal, institutional and administrative flaws, contributing to a lack of desired progress. If deficits of political security and civil order are the primary problems, balance of payment support will hardly set Nepal in a sound progress curve. Specially, chronic dependency of Nepal has cut its haggling craft for the mobilisation of aid in the national interests and strap up domestic resources for rebuilding the nation.
+
+If the effectiveness of foreign aid in Nepal is judged by its ability to expand high productive capacity to satisfy basic needs, there is a pause. The Development Cooperation Report of Finance Ministry unveils that donors have spent most of their money in Province 1 and Province 3 where human development index is relatively better. The backward Province 4 got the least. This means aid did not follow the criteria of human development index nor geographic distribution. Aid allocation has become elite-centric while the burden of debt for each citizen is Rs 24,276 which is equally shared. Nepal's foreign debt stands at Rs 436.6 billion while domestic debt is Rs 394.6 billion, unsettled account of government offices is Rs. 120 billion. The flaws of foreign aid can be corrected if elites do not lose integrity of public life, do its need assessment and remain clear about policies, aims and strategies in aid negotiations. It is helpful to know what works and what does not and internalize feedbacks into the aid policy. In the link between knowledge-based advanced society and old Nepali state, foreign aid can serve a mediating platform for mutual learning, not imposing the ideologies, institutions and values of dominant culture.
+
+The extreme reliance of Nepalis on aid working along cross-cutting interests, sometimes centrifugal, makes them its victim beyond the coordinating ability of Finance and Foreign Ministries and Social Welfare Council. If market is regarded as the prime motor of progress and functions of aid underlie filling gaps - saving, investment and foreign exchange- , it is bound to nosh general deficiency, institutional weakness and democratic deficits. Empowering Nepali state and society can spur their equal integration in the global market and reap benefits cutting the density of grievances. Nepal faces huge migration of youth, brain drain and capital flight while real foreign direct investment is stunted. The choice of Nepali policy makers is neither de-linking from the self-regulating international system nor radicalism, but reforms which provide it option for economic diplomacy.
+
+Foreign aid in Nepal's external opening can provide better choice if it does not lack vigour in fulfilling social needs, diversification owing to small size, initial stage of industrialisation and dependent on imports, investment, remittance, grants, loans, export of primary products, tourism, etc. The question is how the priority of Nepal's progress be built on common agenda of aid coordination and controlling duplication and inefficiencies. Aid priorities should focus on domestic resource mobilisation, inclusive economic growth, building knowledge relevant to policy on education and skills, health, institutional framework of regional cooperation and overcoming powerlessness of Nepalis. Beating the flaws of aid is vital to achieve its goals in the mutual interests and validate its "permanence." A search for new ways in which foreign aid can be utilised in a productive manner, set new objectives, methodology and programmes for partners of development is underway.
+
+At a time when foreign aid in Nepal continues to become a tuneful music to elites for the secret of their political success, it is right time to make it citizen-centric, ecological sensitive, non-commercial and non-strategic. To free Nepal from the trap of vicious cycle of poverty, debt and conflict grant components should get precedence. But international redistribution of public goods demands equal justice at home. The genesis of aid emerged as altruistic motive but suffered from general "weariness" inflicted by bribery, commission, leakage or capital flight abroad incubating a class of elites which thrives on aid and dies with the drying up of aid oxygen. Appropriate outlay of aid in the nation's priority areas is vital to have symbiotic ties between state and citizens where democracy can mediate the state's need for civic order and delivery of public goods and citizens' conscious impulse for freedom, education and dignity. Tied aid for the one-sided adjustment of Nepal to neoliberal economy appears to be based on military model of homogenisation. It exercises disturbing power over citizens causing political decay. If the reality of conditionalised aid produces democratic recession, Nepal should think about de-conditionalisation. Nepalis cherish the values of freedom which is the linchpin of democracy, human rights, justice and peace. Mutual determination of aid spawns positive outcome for functional necessity of Nepali democracy's chance of survival.
+
+Source: Dev Raj Dahal, \url{http://therisingnepal.org.np/news/24030}
+
+### 2072 BS: An Annus Horribilis
+
+The year 2072 BS was an annus horribilis for the Nepalese people. It started with devastation that came in the form of nature- and human-induced disasters. Humans are helpless to tame the fury of nature but can demonstrate a sense of esprit de corps in the time of utter crisis and tragedy. This collective sentiment and cooperation was once again reified in the Nepali society when a 7.8 magnitude earthquake jolted it to the point of apocalypse in the second week of Baishakh (mid-April) last year, killing over 9,000 people and injuring many more. The tremor did not only convulse the Nepali geography but it also exposed political inertia and indecision. The key political actors were shackled to their entrenched positions, and the quake whipped them into effecting the 16-point deal that helped gain spurts in the constitution writing. The elected Constituent Assembly (CA), considered to be the most inclusive and democratic in South Asia, finally delivered the new constitution, defying the diktats and blusters of the southern neighbor. The new national charter turned 2072 into an annus mirabilis for the Nepalese living with the trauma of a high magnitude.
+
+Light in the tunnel
+
+The new statute was a beam of light into the dark tunnel of prolonged transition. The statute promulgation marked the prideful moment and assertion of national sovereignty. To our dismay, the southern neighbour saw red over its contents after the major parties spurned its hegemonic desire to take the ownership of the constitution. Pinched and infuriated, India came with a vengeance - it imposed an inhuman blockade on the Nepalese, who were still struggling to pick up the pieces following the massive destruction of lives, property and infrastructure. Agitating Madhesi parties brazenly collaborated with the Indian regime to intensify their border-centric protest only to rub salt into the wounds of the Nepalese. The illegitimate embargo triggered humanitarian crisis and caused colossal damage to the country's economy. One economist estimated that the blockade caused a loss of Rs 2,300 billion and pushed the country 50 years back.
+
+It was the third Indian blockade against Nepal. India has taken the wicked punitive measure against the Himalayan nation whenever the latter dared to defend its territorial integrity and political sovereignty. However, it has been hoisted by its own petard. The Indian government made an embarrassing retreat in the face of dogged perseverance and surging nationalism of Nepalese, and international isolation. It imposed the blockade unofficially and lifted it without formal announcement. Despite this, Indian PM Narendra Modi has thrown the Nepalese for a loop. When push came to shove, Modi is flexing its diplomatic muscle to desecrate Nepal's constitution in the international forums on the trot. This David-Goliath tussle goes on until the truth prevails over blatant lies, rumours and propaganda.
+
+What saved Nepal from collapsing when it was clobbered hard by the earthquake and blockade? It was perhaps the self-generated power of resilience rooted in the enlightened and altruistic tradition of Nepali civilisation. Resilience is the natural capacity of individual, community, society and the state to pull through from the adverse situation. Political scientist Dev Raj Dahal offers insights into the sources of resilience the Nepalese have showed in extremes. He writes: "Nepal's earliest history of enlightenment inherited from classical treatises written during Vedic, Janak, and Buddhist eras, syncretic culture, Nepali language serving as lingua franca, heritage of tolerance of diversity, overlapping values, cosmopolitan attitude to asylum-seekers and history of independence infused the virtues of resilience." The temblor hit 14 districts hard but it spurred the cohesive elements of society across the country, transcending narrow interest and identity. This is a reason why the micro-minority communities of non-affected areas such as Kamalaris, Shikhs, Telis, Tharus, Muslims and Buddhists commiserated with the quake victims and provided relief to them. This altruistic feeling did not only knock the political parochialism sideways but also bore testimony to the fact that when political leadership wimps out, the community rises to the challenge. 
+
+Prime Minister KP Sharma Oli ascended to power hard on the heels of earthquake and blockade. His political odyssey from a Naxalite juvenile to executive head of government sounds a bit apocryphal and is full of exciting adventures. Only six months into office, Oli as a premier has not only added a feather to his cap but he has also set a shining example of patriotism for the nation. He unwaveringly stuck up for independence, dignity and right to self-determination. He stood up to the haughty hegemon and refused to give in. For all his shortcomings - his inability to accelerate the reconstruction campaign, and control the black-marketing and runaway inflation - Oli stands tall in the crowd of political mediocres.
+
+Bizarre posture
+
+His courage and conviction impels us to compare him with another charismatic democratic leader, BP Koirala, who had dealt with the giants of Asia - chairman Mao and Jawaharlal Nehru - with great sangfroid. BP never buckled under when Mao pressed him to accept the division of Sagarmatha (Mt Everest) between the two countries. BP insisted that entire Sagarmatha belongs to Nepal and said there was no question of splitting its sovereignty. Nehru had once asked BP about the agenda of his visit to China when the latter was in India in his capacity of Prime Minister. BP took umbrage at the uncalled for curiosity of Nehru and laid it on the line - 'it is our internal affairs. India does not need to poke its nose into this matter.' But, to our chagrin, BP's party - the Nepali Congress - is shying away from calling a spade a spade. It was afraid of using the term 'blockade' for the disruption of supplies during the cruel embargo. It ratted on the gentleman agreement with CPN-UML, throwing their robust partnership into disarray. In its latest bizarre posture, the mealy-mouthed NC was reluctant to criticise the EU-India joint statement that denigrated Nepal's democratic constitution. The resentful divorce between the NC and UML remained one of the nastier political episodes of 2072 BS. This has put the task of statute implementation in quandary. Much of the country's political course will largely be set by amity or enmity between these two big parties.

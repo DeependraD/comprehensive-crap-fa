@@ -1,0 +1,414 @@
+# Introduction to International Relations and Diplomacy
+
+## Diplomacy
+
+Diplomacy is the application of intelligence and tact to the conduct of official relations between the government of independent states, extending sometimes also to their relations with dependent territories, and between govenrment and international institutions; or more briefly, the conduct of business between states by peaceful means.
+
+While diplomacy is properly the conduct or execution of foreign policy, it is sometimes confused with foreign policy itself. But foreign policy is formulated by government, not by diplomats. In order to carry out its policy, a government manages its international relations by applying not only persuasion but also different forms of pressure. How successful these pressures prove will depend to a great extent on the real power, often now referred to as **hard power**, behind them. The power must be real, but rather than exercise it explicitly, the government may prefer to keep it in reserve with the implication that in certain circumstances it could be used. Nevertheless, in normal circumstances it will conduct its international intercourse by negotiation, a form of **soft power**. This is diplomacy. Persuasive argument, if applied skilfully and sensitively at the right time, may achieve a better result than persuasion too obviously backed by the threat of force. The latter may provoke resistance and ultimately lead to war.
+
+The etymology of diplomacy takes us to ancient Greece. The diploma is understood to be a document by which a privilege is conferred: a state paper, official document, a charter. The earliest English instance of the use of this word is in the year 1645.
+
+Diplomacy is in fact, as the Duc de Broglie remarked, the best means devised by civilization for preventing international relations from being governed by force alone. The field in which it operates lies somewhere between power politics and civilized usage, and its methods have varied with the political conventions of each age.
+
+## Foreign policy
+
+Foreign policy is the system of activities evolved by communities for changing the behavior of other states and for adjusting their own activities to the international environment -- George Modelski
+
+Foreign policy is the substance of nation's efforts to promote its interest's vis-a-vis other nations -- Normal Hill
+
+Foreign policy is the key element in the process by which a state translates its broadly conceived goals and interests into concrete courses of action and to attain these objectives and preserve its interests -- Padelford and Loncoln.
+
+Foreign policy is based upon general conception of national requirements. A country's foreign policy is a set of goals that seek to outline how that particular country with interact with other countires of world and to a less extent non-state actors.
+
+Forein policies are designed to help and protect a country's national interests, national security, ideological goals and economic prosperity
+
+Foreign policy is an extension of domestic policy so one must recognize the fact that no nation state can preserve its independence, soverignity and territorial integrity without a policy to build its internal strength that comes from peace and prosperity enjoyed by the people.
+
+Foreign policy of state is the ratifed legal policy aimed at establishing good mutual relationship with other states and international organizations.
+
+Foreign policy of each nation contains:
+
+- A set of principles, policies and decisions adopted and followed by the nation in international relations.
+- Objectives, goals or aims of national interest which are to be secured.
+- Means to be used for achieving the goals of national interest.
+- Broad policy principles and decisions for conducting international relations.
+- Assessement of the gains and failures of the nation in respect of its goals of national interest.
+- Policies, decisions and action-programmes for maintaining continuity or change or both in international relations.
+
+A student of foreign policy analyses the action of a state towards external environment (i.e. other states) and the conditions, usually domestic, under which those actions are formulated. -- Hlstei
+
+The study of foreign policy includes both the study of national objectives to be achived and the means used for securing those. -- Ceeil V. Crabb
+
+### Foreign policy of Nepal
+
+\begin{questions}
+
+\question What is foreign policy ? Write about foreign policy of Nepal.
+
+\begin{solution}
+
+A country's foreign policy, also called foreign relations or foreign affairs policy, consists of self-interest strategies chosen by the state to safeguard its national interests and to achieve goals within its international relations milieu. The approaches are strategically employed to interact with other countries. In recent decades, due to the deepening level of globalization and transnational activities, states also must interact with non-state actors. These interactions are evaluated and monitored in seeking the benefits of bilateral and multilateral international cooperation. 
+
+Foreign policies of countries have varying rates of change and scopes of intent, which can be affected by factors that change the perceived national interests or even affect the stability of the country itself. The foreign policy of a country can have a profound and lasting impact on other countries and on the course of international relations as a whole, such as the Monroe Doctrine, which began in December 1823, conflicting with the mercantilism policies of 19th-century European countries and the goals of independence of newly formed Central American and South American countries.
+
+The fundamental objective of Nepal's foreign policy is to enhance the dignity of the nation by safeguarding sovereignty, territorial integrity, independence, and promoting economic wellbeing and prosperity of Nepal. It is also aimed at contributing to global peace, harmony and security.
+
+Nepal's foreign policy is guided by the following basic principles:
+
+\begin{enumerate}
+\item Mutual respect for each other’s territorial integrity and sovereignty;
+\item Non-interference in each other’s internal affairs;
+\item Respect for mutual equality;
+\item Non-aggression and the peaceful settlement of disputes;
+\item Cooperation for mutual benefit;
+\item Abiding faith in the Charter of the United Nations;
+\item Value of world peace.
+\end{enumerate}
+
+Provisions of the Constitution of Nepal on National Interest and Foreign Policy
+
+National Interest (Article 5.1)
+
+Safeguarding of the freedom, sovereignty, territorial integrity, nationality, independence and dignity of Nepal, the rights of the Nepalese people, border security, economic wellbeing and prosperity shall be the basic elements of the national interest of Nepal.
+
+Directive Principles (Article 50.4)
+
+The State shall direct its international relations towards enhancing the dignity of the nation in the world community by maintaining international relations on the basis of sovereign equality, while safeguarding the freedom, sovereignty, territorial integrity and independence and national interest of Nepal.
+
+State Policy (Article 51)
+
+\begin{enumerate}
+\item To conduct an independent foreign policy based on the Charter of the United Nations, non-alignment, principles of Panchasheel, international law and the norms of world peace, taking into consideration of the overall interest of the nation, while remaining active in safeguarding the sovereignty, territorial integrity, independence and national interest of Nepal,
+\item To review treaties concluded in the past, and make treaties, agreements based on equality and mutual interest.
+\end{enumerate}
+
+Put simply, foreign policy is an activity whereby state actors act, react and interact in their bilateral and multilateral dealings with external actors. Its architects straddle two separate environments-internal or domestic environment and external or global environment. Internal political dynamics forms the background context against which a policy is crafted. Factors such as the state's resource base, its geographical position in relation to others, the level of development of its economy, its demographic structure and the political ideology it pursues form the domestic milieu. The international environment is where a nation's foreign policy is actually implemented. Regional perspectives, too, play an equally vital role in approaching the international environment because geopolitics sets the parameters in all aspects of foreign policy. 
+
+Another important consideration is that political regimes may change at regular intervals, but a country’s independence, sovereignty and territorial integrity cannot be compromised at any cost. Nepal needs to maintain a judicious balance in its foreign policy posture vis-à-vis the neighbours and donor countries who practically wield a vital key to Nepal’s economic reconstruction and infrastructural development.
+
+source: \url{https://mofa.gov.np/foreign-policy/}; \url{https://kathmandupost.com/opinion/2019/03/26/foreign-policy-dilemma}
+\end{solution}
+\end{questions}
+
+### Elements of foreign policy
+
+1. Size of state territory
+2. Geographical factors
+3. Level and nature of economic development
+4. Cultural and historical factors
+5. Social structure
+6. Governement structure
+7. Internal situation
+8. Values, talents, experiences and personalities of leaders
+9. POlitical accountability
+10. Ideology
+11. Diplomacy
+12. International power structure (Global strategic environment)
+13. Public opinion
+14. Technology
+15. External environment
+16. Alliances and international treaties (Bilateral and multilateral)
+
+Domestic factors
+
+1. Size and population composition
+2. Geography
+3. Culture and history
+4. Economic development
+5. Technology
+6. National capacity
+7. Public mood and opinion
+8. Political organization
+9. Role of press
+
+External determinants
+
+1. International law
+2. International organizations
+
+## Foreign policy, 2077
+
+### Challenges
+
+1. Protect nation and promote national interest with the mindset of continuation and dynamism in a rapidly changing and volatile regional and international context.
+2. Protect international border of Nepal
+3. Construct an integrated vision for conduction of foreign affairs with effective consultation, collaboration and help from all possible sectors.
+4. Accept and mobilize foreign aid taking into consideration the national leadership and ownership in ensuring promotion of national priorities and interest.
+5. Ensure international assistance in achieving sustainable development periodic planning goals.
+6. Mobilize and foreign investment based on national requirement for socio-economic development through effective implementation of economic diplomacy.
+7. Protect sovereignty and national interest ill impacts of competitive warfare among regional and international superpowers.
+8. Improvement of multilateralism in order to protect welfare of small and developing nations.
+9. Generate consensus and assistance from international community to promote welfare on behalf of the countries with special situation.
+10. Increase competitiveness and continue to provide trade related facilities even after graduating from least developed country.
+11. Incorporate agendas of mountainous country into international climate change policy formulation and seek for financial and technical assistance for mitigation as well as resilience building against climate change.
+12. Develop specialized institutional capacity, human resource and professional expertise in the dynamic and competitive global environment for conduction and management of foreign affairs.
+
+## Some terminologies
+
+### Diplomatic immunity
+
+Diplomatic immunity is a kind of legal immunity and a policy held between governments that ensure that diplomats are given safe passage and are considered not susceptible to lawsuit or prosecution under the host country's laws, but they can still be expelled.
+
+Diplomatic Immunity finds its origin from as international law in the Vienna Convention on Diplomatic Relations (1961), though the concept and custom have a much longer history. Diplomatic immunity as an institution developed to allow for
+
+### Diplomatic asylum
+
+Diplomatic asylum is not established in any international law. It derives its existence from Article 14 of the Universal Declaration of Human Rights, which states: "Everyone has the right to seek and to enjoy in other countries asylum from persecution."
+
+The European Convention on Human Rights and the International Covenant on Civil and Political Rights also enshrine this law.
+
+The International Court of Justice has emphasised that in the absence of treaty or customary rules to the contrary, a decision by a mission to grant asylum involves a derogation from the soverignty of the receiving state.
+
+The Organization of American States agreed a convention in 1954.
+
+In a broad sense, according to the UN, it is protection which is granted by a country outside its own borders, and particularly through its diplomatic missions.
+
+A case of Julian Assange
+
+Julian Assange, founder of whistleblowing website Wikileaks, is facing extradition from the US to Sweden over rape and sexual assault allegations. Recently he had spent a night in Ecuadorian embassy in London after claiming diplomatic asylum. The Government authorities said that by spending the night at the embassy he has breached his bail conditions and faces arrest, but Ecuadorian authorities said they were "studying and analysing" his request.
+
+As per the customs, local police and security forces are not permitted to enter an embassy unless they have the express permission of the ambassador -- even though the embassy remains the territory of the host nation. This rule was set our in 1961 Vienna Convention on Diplomatic Relations when it codified a custom in place for centuries by establishing the "rule of inviolability". Thus, by being at the embassy, Assange was on diplomatic territory and beyond the reach of the police. Assange fears if he is sent to Sweden it may then lead to him being sent to the US to face charges over Wikileaks, for which he could face the death penalty.
+
+### Soft power and hard power
+
+**Soft power** is the ability of one country to attract and co-opt, rather than coerce, the other country in order to achieve what it wants. It involves shaping the preferences of others through appeal and attraction. The elements of soft power includes culture, political values, mass media, and foreign policies. The success of soft power heavilty depends on the actor's reputation within the international community, as well as the flow of information between actors.
+
+A country may obtain the outcomes it wants in world politics because other countries -- admiring its values, emulating its examples, aspiring to its level of prosperity and openness -- want to follow it. In this sense, it is also importantn to set the agenda and attract others in world politics, and not only to force tham to change by threatening military force or economic sanctions.
+
+In the current context of pandemic outbreak, scientific innovations such as Covid-19 vaccines have been a part of a country's soft power^[https://tkpo.st/38xwIDB]. Small countries like Nepal need to pursue proactive diplomacy to ensure that their vaccines needs are fulfilled on time.
+
+**Hard power** refers to the use of military and economic means to influence the behavior or interests of other political bodies. This form of political power is often aggressive (using coercion), and it is most immediately effective when imposed by a country/political body as a means to obtain the outcome of it's interest upon a lesser military and/or economic power.
+
+According to Joseph Nye, hard power involves "the ability to use the carrots and sticks of economic and military might to make others follow your will". Here, "carrots" stand for inducements such as reduction of trade barriers, the offer of an alliance or the promise of military protection. On the other hand, "sticks" represent threats-including the use of coercive diplomacy, the threat of military intervention, or the implementation of economic sanctions.
+
+Recent event that involves a brandishing of hard-power involves, India imposing an undeclared blockade against Nepal. The events unfolded starting September 2015 owing to India's concern about changes to Nepal's constitution, violent ethnic conflict, and Nepal's increasing cooperation with China.
+
+### Ambassador Extraordinary and Plenipotentiary
+
+According to the Vienna Convention on Diplomatic Relations of 1961, ambassadors are diplomats of the highest rank, formally representing their head of state with plenipotentiary powers (i.e. full authority to represent the government). In modern usage, most ambassadors on foreign postings as head of mission carry the full title of Ambassador Extraordinary and Plenipotentiary.
+
+The distinction between extraordinary and ordinary ambassadors was common when not all ambassadors resided in the country to which they are assigned, often service only for a specific purpose or mission.
+
+### Charges d' affaires
+
+A distinction must be drawn between chargés d’affaires accredited to ministers of foreign affairs, forming the third class of heads of mission under Article 14 of the Vienna Convention on Diplomatic Relations, and chargés d’affaires ad interim who are appointed to act provisionally as head of a mission. The former were sometimes known as chargés d’affaires en pied or as chargés d’affaires en titre and, as indicated above, they have almost vanished from diplomatic practice as the appointment of ambassadors has become entirely general. An exceptional example of this generally obsolete practice however took place in the Federal Republic of Yugoslavia in 1992 where as a sign of displeasure at that State’s role in the break-up of Yugoslavia, many States withdrew their ambassadors from Belgrade and replaced them with chargés d’affaires en titre.
+
+Chargés d’affaires ad interim, who are not formally accredited either to heads of State or to ministers of foreign affaires, are by contrast frequent appointments. Article 19 of the Vienna Convention specifies that they should be appointed when the post of head of mission is vacant or the head is unable to perform his functions. It is usual diplomatic practice for an ambassador to take his leave and for there to be a gap before the arrival of his successor during which a chargé d’affaires ad interim will act as head of mission, and a chargé may also be appointed when the ambassador is recalled home for consultations or is abroad on leave, seriously ill, or even held hostage.
+
+The appointment of a chargé d’affaires ad interim must be notified to the ministry of foreign affairs—usually by the departing head of mission but, if he is unable to do so, by the ministry of foreign affairs of the sending State.
+
+## Diplomatic stance of Nepal
+
+### History and Evolution of Non-Aligned Movement
+
+August 22, 2012
+
+History
+
+The Non-Aligned Movement (NAM) was created and founded during the collapse of the colonial system and the independence struggles of the peoples of Africa, Asia, Latin America and other regions of the world and at the height of the Cold War. During the early days of the Movement, its actions were a key factor in the decolonization process, which led later to the attainment of freedom and independence by many countries and peoples and to the founding of tens of new sovereign States. Throughout its history, the Movement of Non-Aligned Countries has played a fundamental role in the preservation of world peace and security.
+
+While some meetings with a third-world perspective were held before 1955, historians consider that the Bandung Asian-African Conference is the most immediate antecedent to the creation of the Non-Aligned Movement. This Conference was held in Bandung on April 18-24, 1955 and gathered 29 Heads of States belonging to the first post-colonial generation of leaders from the two continents with the aim of identifying and assessing world issues at the time and pursuing out joint policies in international relations.
+
+The principles that would govern relations among large and small nations, known as the "Ten Principles of Bandung", were proclaimed at that Conference. Such principles were adopted later as the main goals and objectives of the policy of non-alignment. The fulfillment of those principles became the essential criterion for Non-Aligned Movement membership; it is what was known as the "quintessence of the Movement" until the early 1990s.
+
+In 1960, in the light of the results achieved in Bandung, the creation of the Movement of Non-Aligned Countries was given a decisive boost during the Fifteenth Ordinary Session of the United Nations General Assembly, during which 17 new African and Asian countries were admitted. A key role was played in this process by the then Heads of State and Government Gamal Abdel Nasser of Egypt, Kwame Nkrumah of Ghana, Shri Jawaharlal Nehru of India, Ahmed Sukarno of Indonesia and Josip Broz Tito of Yugoslavia, who later became the founding fathers of the movement and its emblematic leaders.
+
+Six years after Bandung, the Movement of Non-Aligned Countries was founded on a wider geographical basis at the First Summit Conference of Belgrade, which was held on September 1-6, 1961. The Conference was attended by 25 countries: Afghanistan, Algeria, Yemen, Myanmar, Cambodia, Srilanka, Congo, Cuba, Cyprus, Egypt, Ethiopia, Ghana, Guinea, India, Indonesia, Iraq, Lebanon, Mali, Morocco, Nepal, Saudi Arabia, Somalia, Sudan, Syria, Tunisia, Yugoslavia.
+
+The Founders of NAM have preferred to declare it as a movement but not an organization in order to avoid bureaucratic implications of the latter.
+
+The membership criteria formulated during the Preparatory Conference to the Belgrade Summit (Cairo, 1961) show that the Movement was not conceived to play a passive role in international politics but to formulate its own positions in an independent manner so as to reflect the interests of its members.
+
+Thus, the primary of objectives of the non-aligned countries focused on the support of self-determination, national independence and the sovereignty and territorial integrity of States; opposition to apartheid; non-adherence to multilateral military pacts and the independence of non-aligned countries from great power or block influences and rivalries; the struggle against imperialism in all its forms and manifestations; the struggle against colonialism, neocolonialism, racism, foreign occupation and domination; disarmament; non-interference into the internal affairs of States and peaceful coexistence among all nations; rejection of the use or threat of use of force in international relations; the strengthening of the United Nations; the democratization of international relations; socioeconomic development and the restructuring of the international economic system; as well as international cooperation on an equal footing.
+
+Since its inception, the Movement of Non-Aligned Countries has waged a ceaseless battle to ensure that peoples being oppressed by foreign occupation and domination can exercise their inalienable right to self-determination and independence.
+
+During the 1970s and 1980s, the Movement of Non-Aligned Countries played a key role in the struggle for the establishment of a new international economic order that allowed all the peoples of the world to make use of their wealth and natural resources and provided a wide platform for a fundamental change in international economic relations and the economic emancipation of the countries of the South.
+
+During its nearly 50 years of existence, the Movement of Non-Aligned Countries has gathered a growing number of States and liberation movements which, in spite of their ideological, political, economic, social and cultural diversity, have accepted its founding principles and primary objectives and shown their readiness to realize them. Historically, the non-aligned countries have shown their ability to overcome their differences and found a common ground for action that leads to mutual cooperation and the upholding of their shared values.
+
+The ten principles of Bandung
+
+- Respect of fundamental human rights and of the objectives and principles of the Charter of the United Nations.
+- Respect of the sovereignty and territorial integrity of all nations.
+- Recognition of the equality among all races and of the equality among all nations, both large and small.
+- Non-intervention or non-interference into the internal affairs of another -country.
+- Respect of the right of every nation to defend itself, either individually or collectively, in conformity with the Charter of the United Nations.
+
+A. Non-use of collective defense pacts to benefit the specific interests of any of the great powers.
+
+B. Non-use of pressures by any country against other countries.
+
+- Refraining from carrying out or threatening to carry out aggression, or from using force against the territorial integrity or political independence of any country.
+- Peaceful solution of all international conflicts in conformity with the Charter of the United Nations.
+- Promotion of mutual interests and of cooperation.
+- Respect of justice and of international obligations.
+- Evolution
+
+The creation and strengthening of the socialist block after the defeat of fascism in World War II, the collapse of colonial empires, the emergence of a bipolar world and the formation of two military blocks (NATO and the Warsaw Pact) brought about a new international context that led to the necessity of multilateral coordination fora between the countries of the South .
+
+In this context, the underdeveloped countries, most of them in Asia and Africa, felt the need to join efforts for the common defense of their interests, the strengthening of their independence and sovereignty and the cultural and economic revival or salvation of their peoples, and also to express a strong commitment with peace by declaring themselves as "non-aligned" from either of the two nascent military blocks.
+
+In order to fulfill the aims of debating on and advancing a strategy designed to achieve such objectives, the Bandung Asian-African Conference was held in Indonesia in April 1955. It was attended by 29 Heads of State and Government of the first postcolonial generation of leaders and its expressed goal was to identify and assess world issues at the time and coordinate policies to deal with them.
+
+Although the Asian and African leaders who gathered in Bandung might have had differing political and ideological views or different approaches toward the societies they aspired to build or rebuild, there was a common project that united them and gave sense to a closer coordination of positions. Their shared program included the political decolonization of Asia and Africa. Moreover, they all agreed that the recently attained political independence was just a means to attain the goal of economic, social and cultural independence.
+
+The Bandung meeting has been considered as the most immediate antecedent of the founding of the Movement of Non-Aligned Countries, which finally came into being six years later on a wider geographical basis when the First Summit Conference was held in Belgrade on September 1-6, 1961. This gathering was attended by the Heads of State and Government of 25 countries and observers from another three nations.
+
+This First Summit of the Movement of Non-Aligned Countries was convened by the leaders of India, Indonesia, Egypt, Syria and Yugoslavia. On April 26, 1961, the Presidents of the Arab Republic of Egypt (Nasser) and Yugoslavia (Tito) addressed the Heads of State and Government of 21 "non-Aligned" countries and suggested that, taking recent world events and the rise of international tensions into account, a Conference should be held to promote an improvement in international relations, a resistance to policies of force and a constructive settlement of conflicts and other issues of concern in the world.
+
+The Movement played an important role in the support of nations which were struggling then for their independence in the Third World and showed great solidarity with the most just aspirations of humanity. It contributed indisputably to the triumph in the struggle for national independence and decolonization, thus gaining considerable diplomatic prestige.
+
+As one Summit after another was held in the 1960s and 1970s, "non alignment", turned already into the "Movement of Non-Aligned Countries" that included nearly all Asian and African countries, was becoming a forum of coordination to struggle for the respect of the economic and political rights of the developing world. After the attainment of independence, the Conferences expressed a growing concern over economic and social issues as well as over strictly political matters.
+
+Something that attested to that was the launching at the Algiers Conference in 1973 of the concept of a "new international economic order."
+
+By the end of the 1980s, the Movement was facing the great challenge brought about by the collapse of the socialist block. The end of the clash between the two antagonistic blocks that was the reason for its existence, name and essence was seen by some as the beginning of the end for the Movement of Non-Aligned Countries.
+
+The Movement of Non-Aligned Countries could not spare itself difficulties to act effectively in an adverse international political situation marked by hegemonic positions and unipolarity as well as by internal difficulties and conflicts given the heterogeneity of its membership and, thus, its diverse interests.
+
+Nevertheless, and in spite of such setbacks,the principles and objectives of non-alignment retain their full validity and force at the present international juncture. The primary condition that led to the emergence of the Movement of Non-Aligned Countries, that is, non-alignment from antagonistic blocks, has not lost its validity with the end of the Cold War. The demise of one of the blocks has not done away with the pressing problems of the world. On the contrary, renewed strategic interests bent on domination grow stronger and, even, acquire new and more dangerous dimensions for underdeveloped countries.
+
+During the 14th Summit of the Non-Aligned Movement in Havana, Cuba in September 2006, the Heads of States and Governments of the member countries reaffirmed their commitment to the ideals, principles and purposes upon which the movement was founded and with the principles and purposes enshrined in the United Nations Charter.
+
+The Heads of States and Governments stated their firm belief that the absence of two conflicting blocs in no way reduces the need to strengthen the movement as a mechanism for the political coordination of developing countries. In this regard they acknowledged that it remains imperative to strengthen and revitalize the movement. To do so, they agreed to strengthen concrete action, unity and solidarity between all its members, based on respect for diversity, factors which are essential for the reaffirmation of the identity and capacity of the movement to influence International relations.
+
+They also stressed the need to promote actively a leading role for the movement in the coordination of efforts among member states in tackling global threats.
+
+Inspired by the principles and purposes which were brought to the Non-Aligned Movement by the Bandung principles and during the First NAM Summit in Belgrade in 1961, the Heads of States and Governments of the member countries of the Non-Aligned Movement adopted in their 14th Summit in Havana the following purposes and principles of the movement in the present International juncture:
+
+I. Purposes:
+
+a. To promote and reinforce multilateralism and, in this regard, strengthen the central role that the United Nations must play.
+
+b. To serve as a forum of political coordination of the developing countries to promote and defend their common interests in the system of international relations
+
+c. To promote unity, solidarity and cooperation between developing countries based on shared values and priorities agreed upon by consensus.
+
+d. To defend international peace and security and settle all international disputes by peaceful means in accordance with the principles and the purposes of the UN Charter and International Law.
+
+e. To encourage relations of friendship and cooperation between all nations based on the principles of International Law, particularly those enshrined in the Charter of the United Nations.
+
+f. To promote and encourage sustainable development through international cooperation and, to that end, jointly coordinate the implementation of political strategies which strengthen and ensure the full participation of all countries, rich and poor, in the international economic relations, under equal conditions and opportunities but with differentiated responsibilities.
+
+g. To encourage the respect, enjoyment and protection of all human rights and fundamental freedoms for all, on the basis of the principles of universality, objectivity, impartiality and non-selectivity, avoiding politicization of human rights issues, thus ensuring that all human rights of individuals and peoples, including the right to development, are promoted and protected in a balanced manner.
+
+h. To promote peaceful coexistence between nations, regardless of their political, social or economic systems.
+
+i. To condemn all manifestations of unilateralism and attempts to exercise hegemonic domination in international relations.
+
+j. To coordinate actions and strategies in order to confront jointly the threats to international peace and security, including the threats of use of force and the acts of aggression, colonialism and foreign occupation, and other breaches of peace caused by any country or group of countries.
+
+k. To promote the strengthening and democratization of the UN, giving the General Assembly the role granted to it in accordance with the functions and powers outlined in the Charter and to promote the comprehensive reform of the United Nations Security Council so that it may fulfill the role granted to it by the Charter, in a transparent and equitable manner, as the body primarily responsible for maintaining international peace and security.
+
+l. To continue pursuing universal and non-discriminatory nuclear disarmament, as well as a general and complete disarmament under strict and effective international control and in this context, to work towards the objective of arriving at an agreement on a phased program for the complete elimination of nuclear weapons within a specified framework of time to eliminate nuclear weapons, to prohibit their development, production, acquisition, testing, stockpiling, transfer, use or threat of use and to provide for their destruction.
+
+m. To oppose and condemn the categorization of countries as good or evil based on unilateral and unjustified criteria, and the adoption of a doctrine of pre-emptive attack, including attack by nuclear weapons, which is inconsistent with international law, in particular, the international legally-binding instruments concerning nuclear disarmament and to further condemn and oppose unilateral military actions, or use of force or threat of use of force against the sovereignty, territorial integrity and independence of Non-Aligned countries.
+
+n. To encourage States to conclude agreements freely arrived at, among the States of the regions concerned, to establish new Nuclear Weapons-Free Zones in regions where these do not exist, in accordance with the provisions of the Final Document of the First Special Session of the General Assembly devoted to disarmament (SSOD.1) and the principles adopted by the 1999 UN Disarmament Commission, including the establishment of a Nuclear Weapons Free Zone in the Middle East. The establishment of Nuclear Weapons-Free Zones is a positive step and important measure towards strengthening global nuclear disarmament and non-proliferation.
+
+o. To promote international cooperation in the peaceful uses of nuclear energy and to facilitate access to nuclear technology, equipment and material for peaceful purposes required by developing countries.
+
+p. To promote concrete initiatives of South-South cooperation and strengthen the role of NAM, in coordination with G.77, in the re-launching of North-South cooperation, ensuring the fulfillment of the right to development of our peoples, through the enhancement of international solidarity.
+
+q. To respond to the challenges and to take advantage of the opportunities arising from globalization and interdependence with creativity and a sense of identity in order to ensure its benefits to all countries, particularly those most affected by underdevelopment and poverty, with a view to gradually reducing the abysmal gap between the developed and developing countries.
+
+r. To enhance the role that civil society, including NGO´s, can play at the regional and international levels in order to promote the purposes, principles and objectives of the Movement.
+
+II. Principles:
+
+a. Respect for the principles enshrined in the Charter of the United Nations and International Law.
+
+b. Respect for sovereignty, sovereign equality and territorial integrity of all States.
+
+c. Recognition of the equality of all races, religions, cultures and all nations, both big and small.
+
+d. Promotion of a dialogue among peoples, civilizations, cultures and religions based on the respect of religions, their symbols and values, the promotion and the consolidation of tolerance and freedom of belief.
+
+e. Respect for and promotion of all human rights and fundamental freedoms for all, including the effective implementation of the right of peoples to peace and development.
+
+f. Respect for the equality of rights of States, including the inalienable right of each State to determine freely its political, social, economic and cultural system, without any kind of interference whatsoever from any other State.
+
+g. Reaffirmation of the validity and relevance of the Movement's principled positions concerning the right to self-determination of peoples under foreign occupation and colonial or alien domination.
+
+h. Non-interference in the internal affairs of States. No State or group of States has the right to intervene either directly or indirectly, whatever the motive, in the internal affairs of any other State.
+
+i. Rejection of unconstitutional change of Governments.
+
+j. Rejection of attempts at regime change
+
+k. Condemnation of the use of mercenaries in all situations, especially in conflict situations.
+
+l. Refraining by all countries from exerting pressure or coercion on other countries, including resorting to aggression or other acts involving the use of direct or indirect force, and the application and/or promotion of any coercive unilateral measure that goes against International Law or is in any way incompatible with it, for the purpose of coercing any other State to subordinate its sovereign rights, or to gain any benefit whatsoever.
+
+m. Total rejection of aggression as a dangerous and serious breach of International Law, which entails international responsibility for the aggressor.
+
+n. Respect for the inherent right of individual or collective self-defense, in accordance with the Charter of the United Nations.
+
+o. Condemnation of genocide, war crimes, crimes against humanity and systematic and gross violations of human rights, in accordance with the UN Charter and International Law.
+
+p. Rejection of and opposition to terrorism in all its forms and manifestations, committed by whomever, wherever and for whatever purposes, as it constitutes one of the most serious threats to international peace and security. In this context, terrorism should not be equated with the legitimate struggle of peoples under colonial or alien domination and foreign occupation for self-determination and national liberation.
+
+q. Promotion of pacific settlement of disputes and abjuring, under any circumstances, from taking part in coalitions, agreements or any other kind of unilateral coercive initiative in violation of the principles of International Law and the Charter of the United Nations.
+
+r. Defense and consolidation of democracy, reaffirming that democracy is a universal value based on the freely expressed will of people to determine their own political, economic, social, and cultural systems and their full participation in all aspects of their life.
+
+s. Promotion and defense of multilateralism and multilateral organizations as the appropriate frameworks to resolve, through dialogue and cooperation, the problems affecting humankind.
+
+t. Support to efforts by countries suffering internal conflicts to achieve peace, justice, equality and development.
+
+u. The duty of each State to fully and in good faith comply with the international treaties to which it is a party, as well as to honor the commitments made in the framework of international organizations, and to live in peace with other States. v. Peaceful settlement of all international conflicts in accordance with the Charter of the United Nations.
+
+w. Defense and promotion of shared interests, justice and cooperation, regardless of the differences existing in the political, economic and social systems of the States, on the basis of mutual respect and the equality of rights.
+
+x. Solidarity as a fundamental component of relations among nations in all circumstances.
+
+y. Respect for the political, economic, social and cultural diversity of countries and peoples.
+
+The movement has succeeded to create a strong front on the International level, representing countries of the third world in the International organizations on top of which the United Nations.
+
+Current Challenges facing the NAM include the necessity of protecting the principles of International law, eliminating weapons of mass destruction , combating terrorism, defending human rights, working toward making the United Nations more effective in meeting the needs of all its member states in order to preserve International Peace , Security and Stability, as well as realizing justice in the international economic system.
+
+On the other hand, the long-standing goals of the Movement remain to be realized. Peace, development, economic cooperation and the democratization of international relations, to mention just a few, are old goals of the non-aligned countries.
+
+In conclusion, The Non-Aligned Movement, faced with the goals yet to be reached and the many new challenges that are arising, is called upon to maintain a prominent and leading role in the current International relations in defense of the interests and priorities of its member states and for achievement of peace and security for mankind.
+
+source: https://mea.gov.in/in-focus-article.htm?20349/History+and+Evolution+of+NonAligned+Movement
+
+### Non aligned movement
+
+Yuba Nath Lamsal
+
+As the 17th summit of the Non-Aligned Movement (NAM) was underway in Margarita Island of Venezuela on September 13-18, a real debate started outside on the role and relevance of the NAM in the changed global scenario. The NAM was created 55 years ago at the height of the Cold War marked by a stiff superpower rivalry and division of the world into two rival camps each led by a super power. The NAM was necessary at that time as many countries of the 'Third World' could not afford to side with any of the two rival blocs but chose to remain neutral. The NAM, therefore, became an appropriate forum for the countries wishing to have equal partnership and friendship with all countries irrespective of their ideological orientation and strategic alignment. But the international situation and scenario are markedly different at present. Now a question has arisen in the international forums and debates:  Is the NAM necessary in the present situation or is it just a waste of resources, energy and time?
+
+ 
+
+Common platform
+
+The founding principles of the NAM were anti-colonialism and anti-imperialism, which appealed to many countries in the world that had either recently been liberated or were still waging national liberation movements to free themselves from the yoke of colonialism and imperialism. The NAM, thus, became a common platform for them to push forward their common agendas as specter of imperialism, colonialism and neo-colonialism continued to hang around and afflict the countries around the world, more particularly the developing nations.
+
+Immediately after the World War II, the global power scenario changed. Until the World War II, the United Kingdom was the center of international power as it used to boast that the sun never set in its empire. The fundamental bases of British power and wealth were its colonies. But after the war, the national liberation movement across the globe intensified so rapidly that the erstwhile colonies were liberated one after another, heavily weakening British power. As British power diminished, the United States emerged to fill the vacuum in the international power politics and became the dominant global power, while Soviet Union suddenly came into the international scene as a rival power challenging the domination of the Western powers.
+
+In the juggling for influence and power in the international arena, two distinct rival camps emerged with the capitalist United States leading the North Atlantic Treaty Organisation (NATO) and the communist Soviet Union commanding another rival block called the Warsaw Pact. The rivalry between these two blocs was so intense that the proxy wars between the two rival blocs were more dangerous than the traditional wars fought ever in the history of mankind. This was a period called as the 'Cold War' during which many inter-state and intra-state wars were fought killing more people than the number of people killed in  five years during the World War II.
+
+This new scenario caused dilemma to many developing countries. It was more dangerous situation than that of the past. Against this background, the non-aligned movement came into existence. An international conference of 25 developing countries in Belgrade of erstwhile Yugoslavia in 1961 formally gave birth to the NAM, and this gathering was dubbed as the first summit of the NAM. But the NAM did not come so easily and overnight.
+
+There had been quite a lot hidden and otherwise exercises before than that. The Bandung Conference of Indonesia in 1955 was, in fact, a beginning of the NAM as 19 participating countries felt the necessity of an organisation of the neutral countries.  Gamal Abdel Nasser of Egypt, Kwame Nkrumah of Ghana, Jawaharlal Nehru of India, Sukarno of Indonesia and Josip Broz Tito of Yugoslavia were the mastermind behind this movement in which Nepal later joined as one of the founding members.
+
+The Bandung Conference not only drew an outline of the NAM but also set some fundamental principles governing the new international organisation, which were later called as the "Ten Principles of Bandung". However, the 'Ten Bandung Principles' were later modified in the first NAM Summit in Belgrade and shortened to five points, which are famously known as the 'Five Principles of Peaceful Co-existence' or ' Panchasheel' as the fundamental basis of international relations.
+
+The non-aligned movement was initiated at a time when the colonial system was in decline and independence struggles raged across Africa, Asia, Latin America and other regions of the world, which provided a hope of a better international world order for hitherto oppressed and exploited countries. Started humbly with 25 countries, NAM has now 120 members, although the organisation appears to be more in name rather than in action especially after the end of the Cold War.
+
+Nepal is a founder member of the NAM. It participated in several rounds of formal and informal discussions on the need and modality of the NAM and its formal announcement in the Belgrade summit in 1961. The participating countries in the first NAM Summit were: Nepal, Afghanistan, Algeria, Yemen, Myanmar, Cambodia, Sri Lanka, Congo, Cuba, Cyprus, Egypt, Ethiopia, Ghana, Guinea, India, Indonesia, Iraq, Lebanon, Mali, Morocco, Saudi Arabia, Somalia, Sudan, Syria, Tunisia and Yugoslavia.
+
+Nepal strictly adheres to the principles of the non-aligned movement in the conduct of its foreign policy, international relations and diplomacy. The Constitution of the Federal Democratic Republic of Nepal has incorporated these principles as the basic guiding principles of Nepal's foreign policy. This, in itself, is the testament of Nepal's unflinching faith and commitment to the NAM and its principles. Moreover, the fundamental principles of NAM or 'Panchaseela' are more important for Nepal as these principles have their original roots in Nepal. Lord Buddha, who was born in Nepal, propounded the 'Panchasheela' consisting of five codes of human conduct and international relations some 2500 year ago.
+
+Lost charm
+
+The NAM is, perhaps, the first international organisation that advocated the rights and interests of the oppressed and exploited countries of the South and raised voice against the countries of the north. After the collapse of the Soviet bloc and the end of the Cold War, there is no dearth of analysts both in the developed and developing countries alike who raise the question on the role and relevance of the non-aligned movement. The NAM has, of course, lost its original charm and but not its relevance.
+
+The world and international balance of power definitely changed over the years and decades. The world is no longer bipolar nor will the present state of unipolarity stay forever. The world scenario has changed and is bound to keep on changing, continuously and steadily, in future, too, which is the law of nature.  Several poles are slowly emerging challenging the US-led unipolar state, thus, requiring even stronger international movements to bring the developing countries together into a common forum for collectively safeguarding their common and shared interests refraining from siding with any of the poles, groups and blocs.
+
+The NAM may appear irrelevant at present given the state of global order, but situation will not always remain as it is now and different world order is sure to emerge in which the NAM may be more relevant. But Non-Aligned Movement (NAM) requires reforms in itself with newer strategies and concepts to work better in coping with the newly emerged international situation and in achieving the shared objectives of the member countries.
+
+source: http://therisingnepal.org.np/news/14500
